@@ -1,0 +1,69 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Rook : Chessman
+{
+    public override bool[,] PossibleMove()
+    {
+        bool[,] r = new bool[8, 8];
+        Chessman c;
+        int i = CurrentX + 1;
+        while (i < 8)
+        {
+            c = BoardManager.Instance.Chessmans[i, CurrentY];
+            if (c == null) r[i, CurrentY] = true;
+            else
+            {
+                if (c.isWhite != isWhite)  r[i, CurrentY] = true;
+                break;
+            }
+
+            i++;
+        }
+
+        i = CurrentX - 1;
+        while (i >= 0)
+        {
+            c = BoardManager.Instance.Chessmans[i, CurrentY];
+            if (c == null) r[i, CurrentY] = true;
+            else
+            {
+                if (c.isWhite != isWhite) r[i, CurrentY] = true;
+                break;
+            }
+
+            i--;
+        }
+
+        i = CurrentY + 1;
+        while (i < 8)
+        {
+            c = BoardManager.Instance.Chessmans[CurrentX, i];
+            if (c == null) r[CurrentX, i] = true;
+            else
+            {
+                if (c.isWhite != isWhite) r[CurrentX, i] = true;
+                break;
+            }
+
+            i++;
+        }
+
+        i = CurrentY - 1;
+        while (i >= 0)
+        {
+            c = BoardManager.Instance.Chessmans[CurrentX, i];
+            if (c == null) r[CurrentX, i] = true;
+            else
+            {
+                if (c.isWhite != isWhite) r[CurrentX, i] = true;
+                break;
+            }
+
+            i--;
+        }
+
+        return r;
+    }
+}

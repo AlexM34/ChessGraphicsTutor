@@ -1,0 +1,1099 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     975 MB
+    Driver:   22.21.13.8299
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.153 seconds
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 8.278690 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: d00 -> priority: 1 
+  Thread -> id: 2ac4 -> priority: 1 
+select x = 2, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  4, y1 = 6, x2 = 4, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  1, y1 = 7, x2 = 2, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 7, x2 = 5, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 7, x2 = 2, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  4, y1 = 7, x2 = 6, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 7, x2 = 4, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  4, y1 = 4, x2 = 4, y2 = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 6, x2 = 3, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  2, y1 = 7, x2 = 5, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 5, x2 = 3, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  2, y1 = 5, x2 = 4, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  2, y1 = 4, x2 = 3, y2 = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 7, x2 = 5, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  4, y1 = 3, x2 = 5, y2 = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 4, x2 = 3, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 6, x2 = 5, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 4, x2 = 6, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 0, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  0, y1 = 7, x2 = 2, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 0, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 5, x2 = 4, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  4, y1 = 7, x2 = 3, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 5, x2 = 1, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  2, y1 = 7, x2 = 1, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 5, x2 = 5, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  1, y1 = 5, x2 = 3, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  0, y1 = 6, x2 = 0, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 0, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 0, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 5, x2 = 5, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 5, x2 = 7, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  7, y1 = 5, x2 = 3, y2 = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 1, x2 = 2, y2 = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  2, y1 = 2, x2 = 3, y2 = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 7, x2 = 7, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 2, x2 = 3, y2 = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 1, x2 = 0, y2 = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 0, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  0, y1 = 1, x2 = 1, y2 = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 0, y = 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 2, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  1, y1 = 2, x2 = 1, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  1, y1 = 5, x2 = 7, y2 = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  7, y1 = 5, x2 = 6, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  7, y1 = 7, x2 = 6, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 6, x2 = 5, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  5, y1 = 6, x2 = 6, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 5, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 7, x2 = 6, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 4, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  6, y1 = 6, x2 = 6, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 6, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 6, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  1, y1 = 7, x2 = 2, y2 = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 1, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 2, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  3, y1 = 7, x2 = 3, y2 = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 4, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+x1 =  7, y1 = 6, x2 = 7, y2 = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 7, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 7, y = 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+select x = 3, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+move to x = 1, y = 6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'A.Monev'
+OS-Version: 6.1.7601 (Service Pack 1) 0x100-0x1
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe:CGT.exe (003D0000), size: 18976768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe', fileVersion: 5.6.0.31247
+C:\Windows\SysWOW64\ntdll.dll:ntdll.dll (77AC0000), size: 1572864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\ntdll.dll', fileVersion: 6.1.7601.24059
+C:\Windows\syswow64\kernel32.dll:kernel32.dll (75B50000), size: 1114112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\kernel32.dll', fileVersion: 6.1.7601.24059
+C:\Windows\syswow64\KERNELBASE.dll:KERNELBASE.dll (77280000), size: 290816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\KERNELBASE.dll', fileVersion: 6.1.7601.24059
+C:\Windows\system32\HID.DLL:HID.DLL (641C0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\msvcrt.dll:msvcrt.dll (75A80000), size: 704512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\msvcrt.dll', fileVersion: 7.0.7601.17744
+C:\Windows\syswow64\USER32.dll:USER32.dll (75460000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USER32.dll', fileVersion: 6.1.7601.23594
+C:\Windows\syswow64\GDI32.dll:GDI32.dll (75740000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\GDI32.dll', fileVersion: 6.1.7601.23914
+C:\Windows\syswow64\LPK.dll:LPK.dll (75B40000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\LPK.dll', fileVersion: 6.1.7601.24007
+C:\Windows\syswow64\USP10.dll:USP10.dll (75EA0000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USP10.dll', fileVersion: 1.626.7601.23894
+C:\Windows\syswow64\ADVAPI32.dll:ADVAPI32.dll (75850000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ADVAPI32.dll', fileVersion: 6.1.7601.24059
+C:\Windows\SysWOW64\sechost.dll:sechost.dll (75710000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\sechost.dll', fileVersion: 6.1.7601.18869
+C:\Windows\syswow64\RPCRT4.dll:RPCRT4.dll (76FC0000), size: 983040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\RPCRT4.dll', fileVersion: 6.1.7601.24059
+C:\Windows\syswow64\SspiCli.dll:SspiCli.dll (75370000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SspiCli.dll', fileVersion: 6.1.7601.24059
+C:\Windows\syswow64\CRYPTBASE.dll:CRYPTBASE.dll (75360000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPTBASE.dll', fileVersion: 6.1.7601.24059
+C:\Windows\system32\VERSION.dll:VERSION.dll (73200000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VERSION.dll', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\ole32.dll:ole32.dll (76E60000), size: 1429504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ole32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\syswow64\SHLWAPI.dll:SHLWAPI.dll (75560000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHLWAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\SHELL32.dll:SHELL32.dll (76200000), size: 12894208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHELL32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\OPENGL32.dll:OPENGL32.dll (5DF90000), size: 819200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OPENGL32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\GLU32.dll:GLU32.dll (64190000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GLU32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DDRAW.dll:DDRAW.dll (70C30000), size: 946176 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DDRAW.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DCIMAN32.dll:DCIMAN32.dll (65900000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DCIMAN32.dll', fileVersion: 6.1.7601.24007
+C:\Windows\syswow64\SETUPAPI.dll:SETUPAPI.dll (75F90000), size: 1691648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SETUPAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\CFGMGR32.dll:CFGMGR32.dll (757D0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CFGMGR32.dll', fileVersion: 6.1.7601.17621
+C:\Windows\syswow64\OLEAUT32.dll:OLEAUT32.dll (770B0000), size: 593920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\OLEAUT32.dll', fileVersion: 6.1.7601.23775
+C:\Windows\syswow64\DEVOBJ.dll:DEVOBJ.dll (77410000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\DEVOBJ.dll', fileVersion: 6.1.7601.17621
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (6CD80000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.1.7601.18917
+C:\Windows\system32\WINMM.dll:WINMM.dll (6D180000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINMM.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\WS2_32.dll:WS2_32.dll (75810000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WS2_32.dll', fileVersion: 6.1.7601.23451
+C:\Windows\syswow64\NSI.dll:NSI.dll (772D0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\NSI.dll', fileVersion: 6.1.7601.23889
+C:\Windows\syswow64\IMM32.dll:IMM32.dll (77220000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\IMM32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\MSCTF.dll:MSCTF.dll (77150000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSCTF.dll', fileVersion: 6.1.7601.23915
+C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (6BCF0000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DNSAPI.dll', fileVersion: 6.1.7601.17570
+C:\Windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (72BE0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IPHLPAPI.DLL', fileVersion: 6.1.7601.17514
+C:\Windows\system32\WINNSI.DLL:WINNSI.DLL (72BD0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINNSI.DLL', fileVersion: 6.1.7601.23889
+C:\Windows\system32\WINHTTP.dll:WINHTTP.dll (6CA10000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINHTTP.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\webio.dll:webio.dll (6CB40000), size: 327680 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\system32\webio.dll', fileVersion: 6.1.7601.23375
+C:\Windows\SysWOW64\nvinit.dll:nvinit.dll (72F30000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\nvinit.dll', fileVersion: 22.21.13.8299
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll:detoured.dll (6BC50000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll'
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll:nvd3d9wrap.dll (6BC10000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll', fileVersion: 22.21.13.8299
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll:nvdxgiwrap.dll (6BBF0000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll', fileVersion: 22.21.13.8299
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll:mono.dll (10000000), size: 2297856 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll', fileVersion: 1.0.0.1
+C:\Windows\syswow64\PSAPI.DLL:PSAPI.DLL (75B30000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\PSAPI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSWSOCK.dll:MSWSOCK.dll (72E00000), size: 245760 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSWSOCK.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\wship6.dll:wship6.dll (70DD0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wship6.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (6B940000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\d3d11.dll:d3d11.dll (71950000), size: 1527808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d11.dll', fileVersion: 6.2.9200.16570
+C:\Windows\system32\dxgi.dll:dxgi.dll (71AD0000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dxgi.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\DXGIDebug.dll:DXGIDebug.dll (687E0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DXGIDebug.dll', fileVersion: 9.30.9600.17336
+C:\Windows\syswow64\WINTRUST.dll:WINTRUST.dll (75910000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WINTRUST.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\CRYPT32.dll:CRYPT32.dll (75950000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPT32.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\MSASN1.dll:MSASN1.dll (75730000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSASN1.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\nvumdshim.dll:nvumdshim.dll (718C0000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvumdshim.dll', fileVersion: 22.21.13.8299
+C:\Windows\system32\nvwgf2um.dll:nvwgf2um.dll (06EF0000), size: 17727488 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvwgf2um.dll', fileVersion: 22.21.13.8299
+C:\Windows\system32\bcrypt.dll:bcrypt.dll (72C00000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcrypt.dll', fileVersion: 6.1.7601.24059
+C:\Windows\system32\nvspcap.dll:nvspcap.dll (0F960000), size: 1511424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap.dll', fileVersion: 3.9.0.61
+C:\Windows\system32\WTSAPI32.dll:WTSAPI32.dll (72AE0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WTSAPI32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\profapi.dll:profapi.dll (772F0000), size: 45056 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\syswow64\profapi.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\nvapi.dll:nvapi.dll (0F570000), size: 3780608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvapi.dll', fileVersion: 22.21.13.8299
+C:\Windows\system32\igd10iumd32.dll:igd10iumd32.dll (083A0000), size: 12419072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igd10iumd32.dll', fileVersion: 20.19.15.4531
+C:\Windows\system32\ncrypt.dll:ncrypt.dll (04D10000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ncrypt.dll', fileVersion: 6.1.7601.24059
+C:\Windows\system32\igdusc32.dll:igdusc32.dll (70FF0000), size: 9220096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igdusc32.dll', fileVersion: 20.19.15.4531
+C:\Windows\syswow64\CLBCatQ.DLL:CLBCatQ.DLL (753D0000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CLBCatQ.DLL', fileVersion: 2001.12.8530.16385
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (6A9F0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbemcomn2.dll:wbemcomn2.dll (6A980000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbemcomn2.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\CRYPTSP.dll:CRYPTSP.dll (72DD0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPTSP.dll', fileVersion: 6.1.7601.23471
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (72D90000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\RpcRtRemote.dll:RpcRtRemote.dll (72840000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RpcRtRemote.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (6A960000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (6A8B0000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\NTDSAPI.dll:NTDSAPI.dll (6A890000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NTDSAPI.dll', fileVersion: 6.1.7600.16385
+C:\Windows\SysWOW64\bcryptprimitives.dll:bcryptprimitives.dll (08360000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\bcryptprimitives.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (6B8C0000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.1.7601.17514
+C:\Windows\System32\PROPSYS.dll:PROPSYS.dll (6B7C0000), size: 1003520 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PROPSYS.dll', fileVersion: 7.0.7601.17514
+C:\Windows\system32\wdmaud.drv:wdmaud.drv (6A7A0000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wdmaud.drv', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ksuser.dll:ksuser.dll (6CD50000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ksuser.dll', fileVersion: 6.1.7601.19091
+C:\Windows\system32\AVRT.dll:AVRT.dll (6D0E0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AVRT.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AUDIOSES.DLL:AUDIOSES.DLL (6B780000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AUDIOSES.DLL', fileVersion: 6.1.7601.23471
+C:\Windows\system32\msacm32.drv:msacm32.drv (6A790000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msacm32.drv', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSACM32.dll:MSACM32.dll (65E50000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSACM32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\midimap.dll:midimap.dll (6A780000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\midimap.dll', fileVersion: 6.1.7600.16385
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll:comctl32.dll (72850000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll', fileVersion: 6.10.7601.18837
+C:\Windows\system32\xinput1_3.dll:xinput1_3.dll (06120000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Windows\system32\dhcpcsvc.DLL:dhcpcsvc.DLL (724F0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (724E0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc6.DLL', fileVersion: 6.1.7601.17970
+C:\Windows\system32\credssp.dll:credssp.dll (72830000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\credssp.dll', fileVersion: 6.1.7601.24059
+C:\Windows\System32\wshtcpip.dll:wshtcpip.dll (72DF0000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wshtcpip.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\rasadhlp.dll:rasadhlp.dll (6BCC0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rasadhlp.dll', fileVersion: 6.1.7600.16385
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (70D90000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 6.1.7601.24000
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\Engine.dll:Engine.dll (7FFF0000), size: 1600110592 (result: 0), SymType: 'PDB', PDB: 'C:\Users\A.Monev\source\repos\Engine\Release\Engine.pdb'
+C:\Windows\system32\VCRUNTIME140.dll:VCRUNTIME140.dll (663C0000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VCRUNTIME140.dll', fileVersion: 14.11.25325.0
+C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (663B0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\ucrtbase.DLL:ucrtbase.DLL (662C0000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ucrtbase.DLL', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll:api-ms-win-core-timezone-l1-1-0.dll (662B0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll:api-ms-win-core-file-l2-1-0.dll (662A0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll:api-ms-win-core-localization-l1-2-0.dll (66290000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-synch-l1-2-0.dll:api-ms-win-core-synch-l1-2-0.dll (6CD60000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-synch-l1-2-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll:api-ms-win-core-processthreads-l1-1-1.dll (66280000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll:api-ms-win-core-file-l1-2-0.dll (66270000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (66260000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (66250000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (66240000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (66230000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (65E70000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (65ED0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.10586.1171
+C:\Windows\system32\dbghelp.dll:dbghelp.dll (72E40000), size: 962560 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
+
+========== OUTPUTING STACK TRACE ==================
+
+0x7FFF4551 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:150] compmove 
+0x7FFF4253 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:61] Move 
+0x052FB141 (Mono JIT Code) (wrapper managed-to-native) SampleCode:Move (int,double)
+0x052F7881 (Mono JIT Code) SampleCode:User (int,int,int,int)
+0x052F73A6 (Mono JIT Code) BoardManager:MoveChessman (int,int)
+0x052E5781 (Mono JIT Code) BoardManager:Update ()
+0x052D93C9 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x100F17E6 (mono) mono_set_defaults
+0x1005D865 (mono) mono_runtime_invoke
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 009220E0)
+0x009220E0 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0091EC42)
+0x0091EC42 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00AC5A6E)
+0x00AC5A6E (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00AC7CC1)
+0x00AC7CC1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00AC7CD7)
+0x00AC7CD7 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 007FA2F1)
+0x007FA2F1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0044759B)
+0x0044759B (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00C13E58)
+0x00C13E58 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00C51AD4)
+0x00C51AD4 (CGT) 
+0x75B6343D (kernel32) BaseThreadInitThunk
+0x77AF9832 (ntdll) RtlInitializeExceptionChain
+0x77AF9805 (ntdll) RtlInitializeExceptionChain
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
