@@ -81,10 +81,14 @@
   <ItemGroup>
     <Compile Include="Assets\Analyze.cs" />
     <Compile Include="Assets\CameraEvents.cs" />
+    <Compile Include="Assets\Eight.cs" />
+    <Compile Include="Assets\Five.cs" />
+    <Compile Include="Assets\Four.cs" />
     <Compile Include="Assets\Hint.cs" />
     <Compile Include="Assets\Letters.cs" />
     <Compile Include="Assets\NewGame.cs" />
     <Compile Include="Assets\Numbers.cs" />
+    <Compile Include="Assets\One.cs" />
     <Compile Include="Assets\Play.cs" />
     <Compile Include="Assets\PromoteBishop.cs" />
     <Compile Include="Assets\PromoteKnight.cs" />
@@ -100,7 +104,11 @@
     <Compile Include="Assets\Scripts\Queen.cs" />
     <Compile Include="Assets\Scripts\Rook.cs" />
     <Compile Include="Assets\Scripts\SampleCode.cs" />
+    <Compile Include="Assets\Seven.cs" />
+    <Compile Include="Assets\Six.cs" />
     <Compile Include="Assets\Takeback.cs" />
+    <Compile Include="Assets\Three.cs" />
+    <Compile Include="Assets\Two.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />

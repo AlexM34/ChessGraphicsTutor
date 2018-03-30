@@ -37,6 +37,7 @@ public class SampleCode : MonoBehaviour
 
     public void Hint ()
     {
+        if (_bm.isEnded ||_bm.wait) return;
         int m;
         if (_bm.isWhiteTurn) m = Move(-16, 1000 * timeWhite);
         else m = Move(-17, 1000 * timeBlack);
@@ -50,6 +51,7 @@ public class SampleCode : MonoBehaviour
 
     public void Takeback ()
     {
+        if (_bm.wait) return;
         //if (_bm.moves == 1 || (_bm.moves == 2 && _bm.isEngineOn)) New();
         if (_bm.moves == 1 && _bm.isEngineOn && !_bm.isUserWhite) return;
         _bm.Takeback();
@@ -63,6 +65,7 @@ public class SampleCode : MonoBehaviour
 
     public void Analyze()
     {
+        if (_bm.isEnded || _bm.wait) return;
         _bm.isEngineOn = false;
     }
 
