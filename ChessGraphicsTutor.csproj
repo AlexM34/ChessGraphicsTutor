@@ -94,6 +94,7 @@
     <Compile Include="Assets\PromoteKnight.cs" />
     <Compile Include="Assets\PromoteQueen.cs" />
     <Compile Include="Assets\PromoteRook.cs" />
+    <Compile Include="Assets\Puzzle.cs" />
     <Compile Include="Assets\Scripts\Bishop.cs" />
     <Compile Include="Assets\Scripts\BoardHighlights.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets\Two.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Standard Assets\3D Text.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />

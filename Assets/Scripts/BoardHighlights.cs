@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoardHighlights : MonoBehaviour
 {
+    public SampleCode _sc;
     public static BoardHighlights Instance { set; get; }
 
     public GameObject highlightPrefab;
@@ -34,7 +35,7 @@ public class BoardHighlights : MonoBehaviour
         {
             for (int j = 0; j < 8; j++)
             {
-                if (moves[i,j])
+                if (moves[i,j] &&  (_sc.puzzleMode || _sc.Possible(i, j)))
                 {
                     GameObject go = GetHighlightObject();
                     go.SetActive(true);

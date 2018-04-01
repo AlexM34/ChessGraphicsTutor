@@ -28,15 +28,20 @@ public class BoardManager : MonoBehaviour
     public bool isEngineOn = true;
     public bool isEnded = false;
     public bool wait = false;
+    public bool puzzleMode = false;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
     private int[] piece_to = new int[400];
     private int[] ep = new int[400];
+    private int[] solution = new int[100];
     public int moves = 0;
+    public int piece_x = -1;
+    public int piece_y = -1;
+    private int puzzleMoves = 100;
 
     public List<GameObject> chessmanPrefabs;
-    private List<GameObject> activeChessman = new List<GameObject>();
+    public List<GameObject> activeChessman = new List<GameObject>();
     private LineRenderer lineRenderer;
 
     private Material previousMat;
@@ -63,6 +68,7 @@ public class BoardManager : MonoBehaviour
         if (!isEngineOn) isUserWhite = true;
         lineRenderer.enabled = false;
         isEnded = false;
+        puzzleMode = false;
         BoardHighlights.Instance.HideHighlights();
 
         Instance = this;
@@ -112,11 +118,13 @@ public class BoardManager : MonoBehaviour
 
         bool hasAtleastOneMove = false;
         allowedMoves = Chessmans[x, y].PossibleMove();
+        piece_x = x;
+        piece_y = y;
         for (int i = 0; i < 8; i++)
         {
             for (int j = 0; j < 8; j++)
             {
-                if (allowedMoves[i, j]) hasAtleastOneMove = true;
+                if (allowedMoves[i, j] && (isUserWhite != isWhiteTurn || puzzleMode || _sc.Possible(i, j))) hasAtleastOneMove = true;
             }
         }
 
@@ -136,8 +144,9 @@ public class BoardManager : MonoBehaviour
         y1 = -1;
         x2 = -1;
         y2 = -1;
-        if (x < 0 || x > 7 || y < 0 || y > 7)
+        if (x < 0 || x > 7 || y < 0 || y > 7 || (isUserWhite == isWhiteTurn && !puzzleMode && !_sc.Possible(x, y)))
         {
+            selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
             BoardHighlights.Instance.HideHighlights();
             selectedChessman = null;
             return;
@@ -151,6 +160,17 @@ public class BoardManager : MonoBehaviour
             y2 = y;
 
             Record();
+
+            if (puzzleMode && ((x1 != solution[4 * puzzleMoves - 4]) ||
+                (y1 != solution[4 * puzzleMoves - 3]) || (x2 != solution[4 * puzzleMoves - 2])
+                || (y2 != solution[4 * puzzleMoves - 1])))
+            {
+
+                selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
+                BoardHighlights.Instance.HideHighlights();
+                selectedChessman = null;
+                return;
+            }
 
             Chessman c = Chessmans[x, y];
             if (c != null && c.isWhite != isWhiteTurn)
@@ -281,6 +301,15 @@ public class BoardManager : MonoBehaviour
             if (!isEngineOn) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
             //_sc.User(x1, y1, x2, y2);
+        }
+
+        if (puzzleMode)
+        {
+            puzzleMoves--;
+            if (puzzleMoves == 0)
+            {
+                EndGame(1);
+            }
         }
     }
 
@@ -457,7 +486,40 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    private void SpawnChessman(int index, int x, int y)
+    public void Puzzle (int[] pos, int[] sol)
+    {
+        foreach (GameObject go in activeChessman) Destroy(go);
+
+        isWhiteTurn = true;
+        isUserWhite = true;
+        isEngineOn = false;
+        lineRenderer.enabled = false;
+        isEnded = false;
+        puzzleMode = true;
+        BoardHighlights.Instance.HideHighlights();
+
+        Instance = this;
+
+        activeChessman = new List<GameObject>();
+        Chessmans = new Chessman[8, 8];
+        EnPassantMove = new int[2] { -1, -1 };
+
+        for (int i = 0; i < pos.Length; i += 3)
+        {
+            SpawnChessman(pos[i], pos[i + 1], pos[i + 2]);
+        }
+
+        puzzleMoves = sol.Length / 4;
+        for (int i = 0; i < sol.Length; i += 4)
+        {
+            solution[i] = sol[sol.Length - 4 - i];
+            solution[i+1] = sol[sol.Length - 3 - i];
+            solution[i+2] = sol[sol.Length - 2 - i];
+            solution[i+3] = sol[sol.Length - 1 - i];
+        }
+    }
+
+    public void SpawnChessman(int index, int x, int y)
     {
         Vector3 origin = Vector3.zero;
         origin = GetTileCenter(x, y);

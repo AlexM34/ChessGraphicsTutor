@@ -12,11 +12,13 @@ public class SampleCode : MonoBehaviour
 
     public double timeWhite;
     public double timeBlack;
+    private int level = 10;
+    public bool puzzleMode = false;
 
     public BoardManager _bm;
 
     [DllImport("Engine.dll", CharSet = CharSet.Unicode)]
-    static extern int Move(int move, double time);
+    static extern int Move(int move, double time, int l);
     
     public Text text;
 
@@ -28,10 +30,10 @@ public class SampleCode : MonoBehaviour
 
     public void NewGame ()
     {
-        timeWhite = 60f;
-        timeBlack = 60f;
+        timeWhite = 666f;
+        timeBlack = 666f;
         text = GetComponent<Text>();
-        int x =  Move(0, 1000 * timeWhite);
+        int x =  Move(0, 1000 * timeWhite, level);
         if (!_bm.isUserWhite) CPU(-6);
     }
 
@@ -39,8 +41,8 @@ public class SampleCode : MonoBehaviour
     {
         if (_bm.isEnded ||_bm.wait) return;
         int m;
-        if (_bm.isWhiteTurn) m = Move(-16, 1000 * timeWhite);
-        else m = Move(-17, 1000 * timeBlack);
+        if (_bm.isWhiteTurn) m = Move(-16, 1000 * timeWhite, level);
+        else m = Move(-17, 1000 * timeBlack, level);
 
         int from = m / 100; //promotion issues
         int x1 = from % 8;
@@ -51,47 +53,68 @@ public class SampleCode : MonoBehaviour
 
     public void Takeback ()
     {
-        if (_bm.wait) return;
+        if (_bm.wait || _bm.moves == 0) return;
         //if (_bm.moves == 1 || (_bm.moves == 2 && _bm.isEngineOn)) New();
         if (_bm.moves == 1 && _bm.isEngineOn && !_bm.isUserWhite) return;
         _bm.Takeback();
-        int m = Move(-666, 100);
+        int m = Move(-666, 100, level);
         if (_bm.isEngineOn)
         {
             _bm.Takeback();
-            m = Move(-666, 100);
+            m = Move(-666, 100, level);
         }
+        _bm.isEnded = false;
     }
 
     public void Analyze()
     {
         if (_bm.isEnded || _bm.wait) return;
         _bm.isEngineOn = false;
+        _bm.isEnded = false;
+        _bm.puzzleMode = false;
+    }
+
+    public void Level (int x)
+    {
+        level = x;
+    }
+
+    public bool Possible (int x, int y)
+    {
+        int from;
+        if (_bm.selectedChessman == null) from = _bm.piece_x + 8 * (7 - _bm.piece_y);
+        else from = _bm.selectedChessman.CurrentX + 8 * (7 - _bm.selectedChessman.CurrentY);
+        int to = x + 8 * (7 - y);
+
+        if (Move(from * 100 + to, 100, -1) == 1) return true;
+        else return false;
     }
 
     // Update is called once per frame
     void Update ()
     {
+        puzzleMode = _bm.puzzleMode;
+
         if (_bm.isWhiteTurn) timeWhite -= Time.deltaTime;
         else timeBlack -= Time.deltaTime;
 
-        if (timeWhite < 0f)
+        if (timeWhite <= 0f)
         {
-            if (timeBlack >= 0f)
+            if (timeBlack > 0f)
             {
                 text.text = "White lost on time";
-                _bm.EndGame(-1);
+                if (_bm.isEngineOn) _bm.EndGame(-1);
             }
         }
-        else if (timeBlack < 0f)
+        else if (timeBlack <= 0f)
         {
             text.text = "Black lost on time";
-            _bm.EndGame(1);
+            if (_bm.isEngineOn) _bm.EndGame(1);
         }
         else if (!_bm.isEnded)
         {
-            if (_bm.isUserWhite) text.text ="        " + ((int)timeBlack).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeWhite).ToString();
-            else text.text = "        " + ((int)timeWhite).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeBlack).ToString();
+            if (_bm.isUserWhite) text.text ="           " + ((int)timeBlack).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeWhite).ToString();
+            else text.text = "           " + ((int)timeWhite).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeBlack).ToString();
         }
         //Time.timeScale += (1f / slowdownLength) * Time.unscaledDeltaTime;
         //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
@@ -108,6 +131,7 @@ public class SampleCode : MonoBehaviour
     {
         _bm.isEngineOn = true;
         _bm.isUserWhite = !_bm.isWhiteTurn;
+        _bm.puzzleMode = false;
         if (!_bm.isWhiteTurn) CPU(-7);   //black
         else CPU(-6);   //white
     }
@@ -128,7 +152,7 @@ public class SampleCode : MonoBehaviour
         else if (!_bm.isUserWhite) time = 1000 * timeWhite;
         else time = 1000 * timeBlack;
 
-        m = Move(move, time);
+        m = Move(move, time, level);
         if (m > -102 && m < -98)
         {
             if (m == -99) _bm.EndGame(1);
@@ -145,7 +169,7 @@ public class SampleCode : MonoBehaviour
         int x2 = to % 8;
         int y2 = 7 - (to / 8);
         if (m != 0) _bm.Play(x1, y1, x2, y2);
-        m = Move(-5, 10);   //mate or stalemate?
+        m = Move(-5, 10, level);   //mate or stalemate?
 
         if (m > -102 && m < -98)
         {
