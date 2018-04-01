@@ -39,6 +39,15 @@ public class SampleCode : MonoBehaviour
 
     public void Hint ()
     {
+        if (puzzleMode)
+        {
+            int xfrom = _bm.solution[4 * _bm.puzzleMoves - 4];
+            int yfrom = _bm.solution[4 * _bm.puzzleMoves - 3];
+            if (_bm.selectedChessman != null) _bm.MoveChessman(xfrom, yfrom);
+            _bm.SelectChessman(xfrom, yfrom);
+            return;
+        }
+
         if (_bm.isEnded ||_bm.wait) return;
         int m;
         if (_bm.isWhiteTurn) m = Move(-16, 1000 * timeWhite, level);
@@ -57,10 +66,12 @@ public class SampleCode : MonoBehaviour
         //if (_bm.moves == 1 || (_bm.moves == 2 && _bm.isEngineOn)) New();
         if (_bm.moves == 1 && _bm.isEngineOn && !_bm.isUserWhite) return;
         _bm.Takeback();
+        if (_bm.puzzleMode) _bm.puzzleMoves++;
         int m = Move(-666, 100, level);
-        if (_bm.isEngineOn)
+        if (_bm.isEngineOn || (_bm.puzzleMode && _bm.isUserWhite != _bm.isWhiteTurn))
         {
             _bm.Takeback();
+            if (_bm.puzzleMode) _bm.puzzleMoves++;
             m = Move(-666, 100, level);
         }
         _bm.isEnded = false;
@@ -129,6 +140,19 @@ public class SampleCode : MonoBehaviour
 
     public void Flip ()
     {
+        if (_bm.puzzleMode)
+        {
+            int xfrom = _bm.solution[4 * _bm.puzzleMoves - 4];
+            int yfrom = _bm.solution[4 * _bm.puzzleMoves - 3];
+            int xto = _bm.solution[4 * _bm.puzzleMoves - 2];
+            int yto = _bm.solution[4 * _bm.puzzleMoves - 1];
+
+            _bm.SelectChessman(xfrom, yfrom);
+            _bm.MoveChessman(xto, yto);
+
+            return;
+        }
+
         _bm.isEngineOn = true;
         _bm.isUserWhite = !_bm.isWhiteTurn;
         _bm.puzzleMode = false;

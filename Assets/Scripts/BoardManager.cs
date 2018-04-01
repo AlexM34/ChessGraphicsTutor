@@ -34,11 +34,11 @@ public class BoardManager : MonoBehaviour
     private int[] piece_from = new int[400];
     private int[] piece_to = new int[400];
     private int[] ep = new int[400];
-    private int[] solution = new int[100];
+    public int[] solution = new int[100];
     public int moves = 0;
     public int piece_x = -1;
     public int piece_y = -1;
-    private int puzzleMoves = 100;
+    public int puzzleMoves = 100;
 
     public List<GameObject> chessmanPrefabs;
     public List<GameObject> activeChessman = new List<GameObject>();
@@ -69,6 +69,7 @@ public class BoardManager : MonoBehaviour
         lineRenderer.enabled = false;
         isEnded = false;
         puzzleMode = false;
+        moves = 0;
         BoardHighlights.Instance.HideHighlights();
 
         Instance = this;
@@ -124,7 +125,7 @@ public class BoardManager : MonoBehaviour
         {
             for (int j = 0; j < 8; j++)
             {
-                if (allowedMoves[i, j] && (isUserWhite != isWhiteTurn || puzzleMode || _sc.Possible(i, j))) hasAtleastOneMove = true;
+                if (allowedMoves[i, j] && (puzzleMode || isUserWhite != isWhiteTurn || _sc.Possible(i, j))) hasAtleastOneMove = true;
             }
         }
 
@@ -144,7 +145,7 @@ public class BoardManager : MonoBehaviour
         y1 = -1;
         x2 = -1;
         y2 = -1;
-        if (x < 0 || x > 7 || y < 0 || y > 7 || (isUserWhite == isWhiteTurn && !puzzleMode && !_sc.Possible(x, y)))
+        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_sc.Possible(x, y)))
         {
             selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
             BoardHighlights.Instance.HideHighlights();
@@ -161,7 +162,7 @@ public class BoardManager : MonoBehaviour
 
             Record();
 
-            if (puzzleMode && ((x1 != solution[4 * puzzleMoves - 4]) ||
+            if (puzzleMode && isWhiteTurn == isUserWhite && ((x1 != solution[4 * puzzleMoves - 4]) ||
                 (y1 != solution[4 * puzzleMoves - 3]) || (x2 != solution[4 * puzzleMoves - 2])
                 || (y2 != solution[4 * puzzleMoves - 1])))
             {
@@ -298,19 +299,27 @@ public class BoardManager : MonoBehaviour
             lineRenderer.SetPosition(0, from);
             lineRenderer.SetPosition(1, to);
 
-            if (!isEngineOn) isUserWhite = !isUserWhite;
+            if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
             //_sc.User(x1, y1, x2, y2);
         }
 
-        if (puzzleMode)
+        if (puzzleMode && x1 != -1)
         {
             puzzleMoves--;
             if (puzzleMoves == 0)
             {
-                EndGame(1);
+                if (isUserWhite) EndGame(1);
+                else EndGame(-1);
+            }
+
+            if (isWhiteTurn != isUserWhite)
+            {
+                SelectChessman(solution[4 * puzzleMoves - 4], solution[4 * puzzleMoves - 3]);
+                MoveChessman(solution[4 * puzzleMoves - 2], solution[4 * puzzleMoves - 1]);
             }
         }
+
     }
 
     public void Promote (int type)
@@ -393,7 +402,7 @@ public class BoardManager : MonoBehaviour
     public void Takeback()
     {
         lineRenderer.enabled = false;
-        moves--;
+        if (moves > 0) moves--;
         EnPassantMove[0] = ep[moves] / 10;
         EnPassantMove[1] = ep[moves] % 10;
         int xfrom = from[moves] / 10;
@@ -449,7 +458,7 @@ public class BoardManager : MonoBehaviour
         }
 
         isWhiteTurn = !isWhiteTurn;
-        if (!isEngineOn) isUserWhite = !isUserWhite;
+        if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
     }
 
     private void UpdateSelection()
@@ -486,16 +495,17 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    public void Puzzle (int[] pos, int[] sol)
+    public void Puzzle (int[] pos, int[] sol, bool white)
     {
         foreach (GameObject go in activeChessman) Destroy(go);
 
-        isWhiteTurn = true;
-        isUserWhite = true;
+        isWhiteTurn = white;
+        isUserWhite = isWhiteTurn;
         isEngineOn = false;
         lineRenderer.enabled = false;
         isEnded = false;
         puzzleMode = true;
+        moves = 0;
         BoardHighlights.Instance.HideHighlights();
 
         Instance = this;

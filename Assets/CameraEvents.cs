@@ -14,6 +14,12 @@ public class CameraEvents : MonoBehaviour
     {
         if (_bm.isUserWhite) WhiteCam();
         else BlackCam();
+        
+        if (_bm.puzzleMode && !_bm.isWhiteTurn)
+        {
+            //_bm.SelectChessman(_bm.solution[4 * _bm.puzzleMoves - 4], _bm.solution[4 * _bm.puzzleMoves - 3]);
+            //_bm.MoveChessman(_bm.solution[4 * _bm.puzzleMoves - 2], _bm.solution[4 * _bm.puzzleMoves - 1]);
+        }
 
         if (_bm.send && !_bm.puzzleMode)
         {
