@@ -166,7 +166,6 @@ public class BoardManager : MonoBehaviour
                 (y1 != solution[4 * puzzleMoves - 3]) || (x2 != solution[4 * puzzleMoves - 2])
                 || (y2 != solution[4 * puzzleMoves - 1])))
             {
-
                 selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
                 BoardHighlights.Instance.HideHighlights();
                 selectedChessman = null;
@@ -279,9 +278,9 @@ public class BoardManager : MonoBehaviour
         if (x1 != -1)
         {
             lineRenderer.enabled = true;
-            lineRenderer.startColor = Color.gray;
-            lineRenderer.endColor = Color.gray;
-            lineRenderer.material.color = Color.gray;
+            lineRenderer.startColor = Color.yellow;
+            lineRenderer.endColor = Color.yellow;
+            lineRenderer.material.color = Color.yellow;
             lineRenderer.startWidth = 0.3f;
             Vector3 from = GetTileCenter(x1, y1);
             Vector3 to = GetTileCenter(x2, y2);
@@ -342,9 +341,9 @@ public class BoardManager : MonoBehaviour
         if (x1 != -1)
         {
             lineRenderer.enabled = true;
-            lineRenderer.startColor = Color.gray;
-            lineRenderer.endColor = Color.gray;
-            lineRenderer.material.color = Color.gray;
+            lineRenderer.startColor = Color.red;
+            lineRenderer.endColor = Color.red;
+            lineRenderer.material.color = Color.red;
             lineRenderer.startWidth = 0.3f;
             Vector3 vfrom = GetTileCenter(x1, y1);
             Vector3 vto = GetTileCenter(x2, y2);
@@ -401,6 +400,14 @@ public class BoardManager : MonoBehaviour
 
     public void Takeback()
     {
+        if (selectedChessman != null)
+        {
+            //SelectChessman(selectedChessman.CurrentX, selectedChessman.CurrentY);
+            selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
+            BoardHighlights.Instance.HideHighlights();
+            selectedChessman = null;
+        }
+
         lineRenderer.enabled = false;
         if (moves > 0) moves--;
         EnPassantMove[0] = ep[moves] / 10;

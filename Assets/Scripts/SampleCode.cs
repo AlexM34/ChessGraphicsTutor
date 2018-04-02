@@ -79,7 +79,7 @@ public class SampleCode : MonoBehaviour
 
     public void Analyze()
     {
-        if (_bm.isEnded || _bm.wait) return;
+        if (_bm.isEnded || _bm.wait || puzzleMode) return;
         _bm.isEngineOn = false;
         _bm.isEnded = false;
         _bm.puzzleMode = false;

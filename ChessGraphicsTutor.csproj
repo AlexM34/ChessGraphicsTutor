@@ -86,6 +86,8 @@
     <Compile Include="Assets\Four.cs" />
     <Compile Include="Assets\Hint.cs" />
     <Compile Include="Assets\Letters.cs" />
+    <Compile Include="Assets\Menu.cs" />
+    <Compile Include="Assets\MenuButton.cs" />
     <Compile Include="Assets\NewGame.cs" />
     <Compile Include="Assets\Numbers.cs" />
     <Compile Include="Assets\One.cs" />
