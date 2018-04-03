@@ -30,8 +30,8 @@ public class SampleCode : MonoBehaviour
 
     public void NewGame ()
     {
-        timeWhite = 666f;
-        timeBlack = 666f;
+        timeWhite = 613f;
+        timeBlack = 65f;
         text = GetComponent<Text>();
         int x =  Move(0, 1000 * timeWhite, level);
         if (!_bm.isUserWhite) CPU(-6);
@@ -124,8 +124,42 @@ public class SampleCode : MonoBehaviour
         }
         else if (!_bm.isEnded)
         {
-            if (_bm.isUserWhite) text.text ="           " + ((int)timeBlack).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeWhite).ToString();
-            else text.text = "           " + ((int)timeWhite).ToString() + "\r\n\r\n\r\n\r\n" + ((int)timeBlack).ToString();
+            if (_bm.isUserWhite)
+            {
+                text.text = "        ";
+                if ((int)timeBlack >= 3600) text.text += ((int)timeBlack / 3600).ToString() + ":";
+                else text.text += "  ";
+                if (((int)timeBlack % 3600) < 600 && ((int)timeBlack >= 3600)) text.text += "0";
+                if ((int)timeBlack < 600) text.text += " ";
+                text.text += (((int)timeBlack % 3600) / 60).ToString() + ".";
+                if (((int)timeBlack % 60) < 10) text.text += "0";
+                text.text += ((int)timeBlack % 60).ToString() + "\r\n\r\n\r\n";
+                if ((int)timeWhite >= 3600) text.text += ((int)timeWhite / 3600).ToString() + ":";
+                else text.text += "  ";
+                if (((int)timeWhite % 3600) < 600 && ((int)timeWhite >= 3600)) text.text += "0";
+                if ((int)timeWhite < 600) text.text += " ";
+                text.text += (((int)timeWhite % 3600) / 60).ToString() + ".";
+                if (((int)timeWhite % 60) < 10) text.text += "0";
+                text.text += ((int)timeWhite % 60).ToString();
+            }
+            else
+            {
+                text.text = "        ";
+                if ((int)timeWhite >= 3600) text.text += ((int)timeWhite / 3600).ToString() + ":";
+                else text.text += "  ";
+                if (((int)timeWhite % 3600) < 600 && ((int)timeWhite >= 3600)) text.text += "0";
+                if ((int)timeWhite < 600) text.text += " ";
+                text.text += (((int)timeWhite % 3600) / 60).ToString() + ".";
+                if (((int)timeWhite % 60) < 10) text.text += "0";
+                text.text += ((int)timeWhite % 60).ToString() + "\r\n\r\n\r\n";
+                if ((int)timeBlack >= 3600) text.text += ((int)timeBlack / 3600).ToString() + ":";
+                else text.text += "  ";
+                if (((int)timeBlack % 3600) < 600 && ((int)timeBlack >= 3600)) text.text += "0";
+                if ((int)timeBlack < 600) text.text += " ";
+                text.text += (((int)timeBlack % 3600) / 60).ToString() + ".";
+                if (((int)timeBlack % 60) < 10) text.text += "0";
+                text.text += ((int)timeBlack % 60).ToString();
+            }
         }
         //Time.timeScale += (1f / slowdownLength) * Time.unscaledDeltaTime;
         //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);

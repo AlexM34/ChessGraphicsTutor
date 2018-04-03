@@ -82,6 +82,7 @@
     <Compile Include="Assets\Analyze.cs" />
     <Compile Include="Assets\CameraEvents.cs" />
     <Compile Include="Assets\Eight.cs" />
+    <Compile Include="Assets\Exit.cs" />
     <Compile Include="Assets\Five.cs" />
     <Compile Include="Assets\Four.cs" />
     <Compile Include="Assets\Hint.cs" />

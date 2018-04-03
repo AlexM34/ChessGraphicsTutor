@@ -7,8 +7,45 @@ using UnityEngine.EventSystems;
 
 public class MenuButton : MonoBehaviour
 {
+    public Canvas puzzle;
+    public Canvas analyze;
+    public Canvas newgame;
+    public Canvas hint;
+    public Canvas takeback;
+    public Canvas exit;
+    public Button playButton;
+    public Slider slider;
+    Text text;
+
+    bool active = false;
+
+    private void Start()
+    {
+        text = GetComponent<Text>();
+        puzzle.gameObject.SetActive(false);
+        analyze.gameObject.SetActive(false);
+        newgame.gameObject.SetActive(false);
+        hint.gameObject.SetActive(false);
+        takeback.gameObject.SetActive(false);
+        exit.gameObject.SetActive(false);
+        playButton.gameObject.SetActive(false);
+        slider.gameObject.SetActive(false);
+        active = false;
+    }
+
     public void ButtonClick()
     {
-        SceneManager.LoadScene("StartMenu");
+        active = !active;
+        puzzle.gameObject.SetActive(active);
+        analyze.gameObject.SetActive(active);
+        newgame.gameObject.SetActive(active);
+        hint.gameObject.SetActive(active);
+        takeback.gameObject.SetActive(active);
+        exit.gameObject.SetActive(active);
+        playButton.gameObject.SetActive(active);
+        slider.gameObject.SetActive(active);
+
+        if (active) GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
+        else GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Menu";
     }
 }

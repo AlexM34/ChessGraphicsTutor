@@ -277,10 +277,18 @@ public class BoardManager : MonoBehaviour
         //Debug.DrawRay(from, to, Color.blue);
         if (x1 != -1)
         {
+            Color color = new Color
+            {
+                a = 1f,
+                r = 0.96f,
+                g = 0.22f,
+                b = 0.9f
+            };
+
             lineRenderer.enabled = true;
-            lineRenderer.startColor = Color.yellow;
-            lineRenderer.endColor = Color.yellow;
-            lineRenderer.material.color = Color.yellow;
+            lineRenderer.startColor = color;
+            lineRenderer.endColor = color;
+            lineRenderer.material.color = color;
             lineRenderer.startWidth = 0.3f;
             Vector3 from = GetTileCenter(x1, y1);
             Vector3 to = GetTileCenter(x2, y2);
