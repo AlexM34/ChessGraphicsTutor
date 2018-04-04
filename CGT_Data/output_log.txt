@@ -15,14 +15,14 @@ Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_
 Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.131 seconds
+- Completed reload, in  0.044 seconds
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.886923 ms
+UnloadTime: 1.687160 ms
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -30,1196 +30,8 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3340 -> priority: 1 
-  Thread -> id: 2858 -> priority: 1 
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
+  Thread -> id: 1c10 -> priority: 1 
+  Thread -> id: 2c74 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -1485,2393 +297,500 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 21.286539 ms
+UnloadTime: 6.901408 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 722.
-Total: 1.961085 ms (FindLiveObjects: 0.143291 ms CreateObjectMapping: 0.135002 ms MarkObjects: 1.637001 ms  DeleteObjects: 0.044606 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 718.
+Total: 0.531727 ms (FindLiveObjects: 0.045396 ms CreateObjectMapping: 0.028816 ms MarkObjects: 0.445277 ms  DeleteObjects: 0.011447 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.311554 ms
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 444.
+Total: 0.357248 ms (FindLiveObjects: 0.034343 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.266061 ms  DeleteObjects: 0.035132 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
-  at Play.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 

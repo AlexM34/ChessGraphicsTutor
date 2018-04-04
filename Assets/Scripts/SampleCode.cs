@@ -16,6 +16,7 @@ public class SampleCode : MonoBehaviour
     public bool puzzleMode = false;
 
     public BoardManager _bm;
+    public Play _play;
 
     [DllImport("Engine.dll", CharSet = CharSet.Unicode)]
     static extern int Move(int move, double time, int l);
@@ -104,6 +105,7 @@ public class SampleCode : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
+        GameObject.Find("Slider").GetComponentInChildren<Text>().text = "Level " + _play.mainSlider.value;// + "/10";
         puzzleMode = _bm.puzzleMode;
 
         if (_bm.isWhiteTurn) timeWhite -= Time.deltaTime;

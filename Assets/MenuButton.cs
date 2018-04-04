@@ -15,13 +15,11 @@ public class MenuButton : MonoBehaviour
     public Canvas exit;
     public Button playButton;
     public Slider slider;
-    Text text;
 
     bool active = false;
 
     private void Start()
     {
-        text = GetComponent<Text>();
         puzzle.gameObject.SetActive(false);
         analyze.gameObject.SetActive(false);
         newgame.gameObject.SetActive(false);
@@ -29,7 +27,7 @@ public class MenuButton : MonoBehaviour
         takeback.gameObject.SetActive(false);
         exit.gameObject.SetActive(false);
         playButton.gameObject.SetActive(false);
-        slider.gameObject.SetActive(false);
+        //slider.gameObject.SetActive(false);
         active = false;
     }
 

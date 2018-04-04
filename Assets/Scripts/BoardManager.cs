@@ -39,6 +39,10 @@ public class BoardManager : MonoBehaviour
     public int piece_x = -1;
     public int piece_y = -1;
     public int puzzleMoves = 100;
+    private int whitedead = 0;
+    private int blackdead = 0;
+    private int[] movetakenwhite = new int[15];
+    private int[] movetakenblack = new int[15];
 
     public List<GameObject> chessmanPrefabs;
     public List<GameObject> activeChessman = new List<GameObject>();
@@ -69,6 +73,8 @@ public class BoardManager : MonoBehaviour
         lineRenderer.enabled = false;
         isEnded = false;
         puzzleMode = false;
+        whitedead = 0;
+        blackdead = 0;
         moves = 0;
         BoardHighlights.Instance.HideHighlights();
 
@@ -182,6 +188,7 @@ public class BoardManager : MonoBehaviour
                     return;
                 }
 
+                Capture(x, y);
                 activeChessman.Remove(c.gameObject);
                 Destroy(c.gameObject);
             }
@@ -378,6 +385,40 @@ public class BoardManager : MonoBehaviour
         _rook.Ready();
         _bishop.Ready();
         _knight.Ready();
+    }
+
+    private void Capture (int x, int y)
+    {
+        int type = TypeAsInt(x, y);
+
+        Vector3 o;
+        if (type < 6)
+        {
+            o = new Vector3(10.5f + whitedead / 6, -0.9f, 5.5f + whitedead % 6);
+            if (type == 4)
+            {
+                o.x -= 0.15f;
+                o.y += 0.57f;
+                o.z -= 0.09f;
+            }
+            movetakenwhite[whitedead] = moves;
+            whitedead++;
+        }
+        else
+        {
+            o = new Vector3(-2.5f - blackdead / 6, -0.9f, 4.5f - blackdead % 6);
+            if (type == 10)
+            {
+                o.x += 0.15f;
+                o.y += 0.57f;
+                o.z += 0.09f;
+            }
+            movetakenblack[blackdead] = moves;
+            blackdead++;
+        }
+
+        GameObject go = Instantiate(chessmanPrefabs[type], o, Quaternion.identity) as GameObject;
+        go.transform.SetParent(transform);
     }
 
     private void Record()
