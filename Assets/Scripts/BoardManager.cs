@@ -43,6 +43,14 @@ public class BoardManager : MonoBehaviour
     private int blackdead = 0;
     private int[] movetakenwhite = new int[15];
     private int[] movetakenblack = new int[15];
+    
+    Color color = new Color
+    {
+        a = 1f,
+        r = 0.96f,
+        g = 0.22f,
+        b = 0.9f
+    };
 
     public List<GameObject> chessmanPrefabs;
     public List<GameObject> activeChessman = new List<GameObject>();
@@ -284,14 +292,6 @@ public class BoardManager : MonoBehaviour
         //Debug.DrawRay(from, to, Color.blue);
         if (x1 != -1)
         {
-            Color color = new Color
-            {
-                a = 1f,
-                r = 0.96f,
-                g = 0.22f,
-                b = 0.9f
-            };
-
             lineRenderer.enabled = true;
             lineRenderer.startColor = color;
             lineRenderer.endColor = color;
@@ -316,6 +316,8 @@ public class BoardManager : MonoBehaviour
             if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
             //_sc.User(x1, y1, x2, y2);
+
+            moves++;
         }
 
         if (puzzleMode && x1 != -1)
@@ -356,9 +358,9 @@ public class BoardManager : MonoBehaviour
         if (x1 != -1)
         {
             lineRenderer.enabled = true;
-            lineRenderer.startColor = Color.red;
-            lineRenderer.endColor = Color.red;
-            lineRenderer.material.color = Color.red;
+            lineRenderer.startColor = color;
+            lineRenderer.endColor = color;
+            lineRenderer.material.color = color;
             lineRenderer.startWidth = 0.3f;
             Vector3 vfrom = GetTileCenter(x1, y1);
             Vector3 vto = GetTileCenter(x2, y2);
@@ -378,6 +380,8 @@ public class BoardManager : MonoBehaviour
 
             if (!isEngineOn) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
+
+            moves++;
         }
         
         wait = false;
@@ -394,7 +398,7 @@ public class BoardManager : MonoBehaviour
         Vector3 o;
         if (type < 6)
         {
-            o = new Vector3(10.5f + whitedead / 6, -0.9f, 5.5f + whitedead % 6);
+            o = new Vector3(10f + whitedead / 6, -0.05f, 4.5f + whitedead % 6);
             if (type == 4)
             {
                 o.x -= 0.15f;
@@ -406,7 +410,7 @@ public class BoardManager : MonoBehaviour
         }
         else
         {
-            o = new Vector3(-2.5f - blackdead / 6, -0.9f, 4.5f - blackdead % 6);
+            o = new Vector3(-2f - blackdead / 6, -0.05f, 3.5f - blackdead % 6);
             if (type == 10)
             {
                 o.x += 0.15f;
@@ -492,9 +496,9 @@ public class BoardManager : MonoBehaviour
         if (moves > 0)
         {
             lineRenderer.enabled = true;
-            lineRenderer.startColor = Color.gray;
-            lineRenderer.endColor = Color.gray;
-            lineRenderer.material.color = Color.gray;
+            lineRenderer.startColor = color;
+            lineRenderer.endColor = color;
+            lineRenderer.material.color = color;
             lineRenderer.startWidth = 0.3f;
             Vector3 vfrom = GetTileCenter(from[moves - 1] / 10, from[moves - 1] % 10);
             Vector3 vto = GetTileCenter(to[moves - 1] / 10, to[moves - 1] % 10);
@@ -515,6 +519,16 @@ public class BoardManager : MonoBehaviour
 
         isWhiteTurn = !isWhiteTurn;
         if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
+
+        if (movetakenwhite[whitedead] == moves)
+        {
+            Capture(0, 0);
+        }
+
+        if (movetakenblack[blackdead] == moves)
+        {
+            Capture(1, 0);
+        }
     }
 
     private void UpdateSelection()

@@ -92,7 +92,9 @@
     <Compile Include="Assets\NewGame.cs" />
     <Compile Include="Assets\Numbers.cs" />
     <Compile Include="Assets\One.cs" />
+    <Compile Include="Assets\Opponent.cs" />
     <Compile Include="Assets\Play.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\PromoteBishop.cs" />
     <Compile Include="Assets\PromoteKnight.cs" />
     <Compile Include="Assets\PromoteQueen.cs" />

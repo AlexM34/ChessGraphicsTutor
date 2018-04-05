@@ -162,6 +162,7 @@ public class SampleCode : MonoBehaviour
                 if (((int)timeBlack % 60) < 10) text.text += "0";
                 text.text += ((int)timeBlack % 60).ToString();
             }
+            text.text = "";
         }
         //Time.timeScale += (1f / slowdownLength) * Time.unscaledDeltaTime;
         //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
