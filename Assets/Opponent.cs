@@ -10,11 +10,12 @@ public class Opponent : MonoBehaviour
     private void Start()
     {
         text = GetComponent<Text>();
-        text.text = "start";
+        GameObject.Find("Opponent").GetComponentInChildren<Text>().text = "alexis";
     }
 
-    private void Update()
+    public void Refresh(int time)
     {
-        text.text = "8.09";
+        //text.text = time.ToString();
+        GameObject.Find("Opponent").GetComponentInChildren<Text>().text = time.ToString();
     }
 }

@@ -17,6 +17,8 @@ public class SampleCode : MonoBehaviour
 
     public BoardManager _bm;
     public Play _play;
+    public Opponent _opp;
+    public Player _pl;
 
     [DllImport("Engine.dll", CharSet = CharSet.Unicode)]
     static extern int Move(int move, double time, int l);
@@ -26,6 +28,7 @@ public class SampleCode : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        _bm.game = true;
         NewGame();
     }
 
@@ -143,6 +146,8 @@ public class SampleCode : MonoBehaviour
                 text.text += (((int)timeWhite % 3600) / 60).ToString() + ".";
                 if (((int)timeWhite % 60) < 10) text.text += "0";
                 text.text += ((int)timeWhite % 60).ToString();
+
+                //_opp.Refresh((int)timeBlack);
             }
             else
             {
@@ -161,9 +166,21 @@ public class SampleCode : MonoBehaviour
                 text.text += (((int)timeBlack % 3600) / 60).ToString() + ".";
                 if (((int)timeBlack % 60) < 10) text.text += "0";
                 text.text += ((int)timeBlack % 60).ToString();
+
+                //_opp.Refresh((int)timeWhite);
             }
-            text.text = "";
         }
+
+        /*if (_bm.isUserWhite)
+        {
+            _pl.Refresh((int)timeWhite);
+            _opp.Refresh((int)timeBlack);
+        }
+        else
+        {
+            _pl.Refresh((int)timeBlack);
+            _opp.Refresh((int)timeWhite);
+        }*/
         //Time.timeScale += (1f / slowdownLength) * Time.unscaledDeltaTime;
         //Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
     }

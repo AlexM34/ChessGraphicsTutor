@@ -100,6 +100,7 @@
     <Compile Include="Assets\PromoteQueen.cs" />
     <Compile Include="Assets\PromoteRook.cs" />
     <Compile Include="Assets\Puzzle.cs" />
+    <Compile Include="Assets\Scripts\BM Start.cs" />
     <Compile Include="Assets\Scripts\Bishop.cs" />
     <Compile Include="Assets\Scripts\BoardHighlights.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />

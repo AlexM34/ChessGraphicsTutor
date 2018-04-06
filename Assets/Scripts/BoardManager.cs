@@ -29,6 +29,7 @@ public class BoardManager : MonoBehaviour
     public bool isEnded = false;
     public bool wait = false;
     public bool puzzleMode = false;
+    public bool game = false;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
@@ -422,7 +423,9 @@ public class BoardManager : MonoBehaviour
         }
 
         GameObject go = Instantiate(chessmanPrefabs[type], o, Quaternion.identity) as GameObject;
-        go.transform.SetParent(transform);
+        //go.transform.SetParent(transform);
+        //Chessmans[(int)o.x, (int)o.y] = go.GetComponent<Chessman>();
+        //Chessmans[(int)o.x, (int)o.y].SetPosition((int)o.x, (int)o.y);
     }
 
     private void Record()
@@ -520,15 +523,17 @@ public class BoardManager : MonoBehaviour
         isWhiteTurn = !isWhiteTurn;
         if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
 
-        if (movetakenwhite[whitedead] == moves)
+        /*if (whitedead > 0 && movetakenwhite[whitedead-1] > moves)
         {
-            Capture(0, 0);
+            whitedead--;
+            Chessman c = Chessmans[(int)10f + whitedead / 6, (int)4.5f + whitedead % 6];
+            Destroy(c.gameObject);
         }
 
-        if (movetakenblack[blackdead] == moves)
+        if (blackdead > 0 && movetakenblack[blackdead-1] == moves)
         {
-            Capture(1, 0);
-        }
+            //Capture(1, 0);
+        }*/
     }
 
     private void UpdateSelection()
@@ -642,7 +647,14 @@ public class BoardManager : MonoBehaviour
         SpawnChessman(4, 1, 0);
         SpawnChessman(4, 6, 0);
 
-        for (int i = 0; i < 8; i++) SpawnChessman(5, i, 1);
+        if (game)
+        {
+            for (int i = 0; i < 8; i++) SpawnChessman(5, i, 1);
+        }
+        else
+        {
+            for (int i = 0; i < 8; i++) SpawnChessman(5, i, 4);
+        }
 
         SpawnChessman(6, 4, 7);
         SpawnChessman(7, 3, 7);
