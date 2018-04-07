@@ -29,7 +29,6 @@ public class BoardManager : MonoBehaviour
     public bool isEnded = false;
     public bool wait = false;
     public bool puzzleMode = false;
-    public bool game = false;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
@@ -42,9 +41,11 @@ public class BoardManager : MonoBehaviour
     public int puzzleMoves = 100;
     private int whitedead = 0;
     private int blackdead = 0;
-    private int[] movetakenwhite = new int[15];
-    private int[] movetakenblack = new int[15];
-    
+    public int[] movetakenwhite = new int[15];
+    public int[] movetakenblack = new int[15];
+    private GameObject[] goWhite = new GameObject[15];
+    private GameObject[] goBlack = new GameObject[15];
+
     Color color = new Color
     {
         a = 1f,
@@ -69,6 +70,15 @@ public class BoardManager : MonoBehaviour
         Instance = this;
         lineRenderer = gameObject.AddComponent<LineRenderer>();
         lineRenderer.enabled = false;
+
+        for (int i = 0; i < 15; i++)
+        {
+            movetakenwhite[i] = -1;
+            if (goWhite[i] != null) Destroy(goWhite[i].gameObject);
+            movetakenblack[i] = -1;
+            if (goBlack[i] != null) Destroy(goBlack[i].gameObject);
+        }
+
         SpawnAllChessmans();
         //_queen.Promotion();
     }
@@ -85,6 +95,15 @@ public class BoardManager : MonoBehaviour
         whitedead = 0;
         blackdead = 0;
         moves = 0;
+
+        for (int i = 0; i < 15; i++)
+        {
+            movetakenwhite[i] = -1;
+            if (goWhite[i] != null) Destroy(goWhite[i].gameObject);
+            movetakenblack[i] = -1;
+            if (goBlack[i] != null) Destroy(goBlack[i].gameObject);
+        }
+
         BoardHighlights.Instance.HideHighlights();
 
         Instance = this;
@@ -318,7 +337,7 @@ public class BoardManager : MonoBehaviour
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
             //_sc.User(x1, y1, x2, y2);
 
-            moves++;
+            //moves++;
         }
 
         if (puzzleMode && x1 != -1)
@@ -382,7 +401,7 @@ public class BoardManager : MonoBehaviour
             if (!isEngineOn) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
 
-            moves++;
+            //moves++;
         }
         
         wait = false;
@@ -394,6 +413,7 @@ public class BoardManager : MonoBehaviour
 
     private void Capture (int x, int y)
     {
+        _sc.text.text = moves.ToString();
         int type = TypeAsInt(x, y);
 
         Vector3 o;
@@ -423,9 +443,13 @@ public class BoardManager : MonoBehaviour
         }
 
         GameObject go = Instantiate(chessmanPrefabs[type], o, Quaternion.identity) as GameObject;
-        //go.transform.SetParent(transform);
-        //Chessmans[(int)o.x, (int)o.y] = go.GetComponent<Chessman>();
-        //Chessmans[(int)o.x, (int)o.y].SetPosition((int)o.x, (int)o.y);
+        go.transform.SetParent(transform);
+
+        if (type < 6) goWhite[whitedead - 1] = go;
+        else goBlack[blackdead - 1] = go;
+
+        //Chessmans[whitedead + 10, blackdead + 10] = go.GetComponent<Chessman>();
+        //Chessmans[whitedead + 10, blackdead + 10].SetPosition(whitedead + 10, blackdead + 10);
     }
 
     private void Record()
@@ -523,17 +547,23 @@ public class BoardManager : MonoBehaviour
         isWhiteTurn = !isWhiteTurn;
         if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
 
-        /*if (whitedead > 0 && movetakenwhite[whitedead-1] > moves)
+        if (whitedead > 0 && movetakenwhite[whitedead-1] == moves+1)
         {
+            movetakenwhite[whitedead - 1] = -1;
             whitedead--;
-            Chessman c = Chessmans[(int)10f + whitedead / 6, (int)4.5f + whitedead % 6];
-            Destroy(c.gameObject);
+            Destroy(goWhite[whitedead].gameObject);
+            //Chessman c = Chessmans[whitedead + 9, blackdead + 10];//(int)10f + whitedead / 6, (int)4.5f + whitedead % 6];
+            //Destroy(c.gameObject);
         }
 
-        if (blackdead > 0 && movetakenblack[blackdead-1] == moves)
+        if (blackdead > 0 && movetakenblack[blackdead-1] == moves+1)
         {
-            //Capture(1, 0);
-        }*/
+            movetakenblack[blackdead - 1] = -1;
+            blackdead--;
+            Destroy(goBlack[blackdead].gameObject);
+            //Chessman c = Chessmans[whitedead + 10, blackdead + 9];
+            //Destroy(c.gameObject);
+        }
     }
 
     private void UpdateSelection()
@@ -614,15 +644,21 @@ public class BoardManager : MonoBehaviour
             {
                 origin.x -= 0.15f;
                 origin.y = 0.57f;
-                origin.z -= 0.09f;
+                origin.z -= 0.15f;
             }
 
             else if (index == 10)
             {
                 origin.x += 0.15f;
                 origin.y = 0.57f;
-                origin.z += 0.09f;
+                origin.z += 0.15f;
             }
+        }
+
+        if (index % 6 != 4 && index % 6 != 5)
+        {
+            if (index < 6) origin.z -= 0.1f;
+            else origin.z += 0.1f;
         }
 
         GameObject go = Instantiate(chessmanPrefabs[index], origin, Quaternion.identity) as GameObject;
@@ -632,7 +668,7 @@ public class BoardManager : MonoBehaviour
         activeChessman.Add(go);
     }
 
-    private void SpawnAllChessmans()
+    public virtual void SpawnAllChessmans()
     {
         activeChessman = new List<GameObject>();
         Chessmans = new Chessman[8, 8];
@@ -647,14 +683,7 @@ public class BoardManager : MonoBehaviour
         SpawnChessman(4, 1, 0);
         SpawnChessman(4, 6, 0);
 
-        if (game)
-        {
-            for (int i = 0; i < 8; i++) SpawnChessman(5, i, 1);
-        }
-        else
-        {
-            for (int i = 0; i < 8; i++) SpawnChessman(5, i, 4);
-        }
+        for (int i = 0; i < 8; i++) SpawnChessman(5, i, 1);
 
         SpawnChessman(6, 4, 7);
         SpawnChessman(7, 3, 7);
@@ -681,20 +710,27 @@ public class BoardManager : MonoBehaviour
                 {
                     origin.x -= 0.15f;
                     origin.y = 0.57f;
-                    origin.z -= 0.09f;
+                    origin.z -= 0.15f;
                 }
                 else
                 {
                     origin.x += 0.15f;
                     origin.y = 0.57f;
-                    origin.z += 0.09f;
+                    //origin.z += 0.15f;
                 }
+            }
+
+            else if (selectedChessman.GetType() != typeof(Pawn) && selectedChessman.GetType() != typeof(Bishop) && selectedChessman.isWhite)
+            {
+                if (selectedChessman.isWhite) origin.z -= 0.1f;
+                else origin.z += 0.1f;
             }
         }
         else
         {
             origin.y = 0;
         }
+
         origin.z += (TILE_SIZE * y) + TILE_OFFSET;
         return origin;
     }

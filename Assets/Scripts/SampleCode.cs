@@ -28,7 +28,6 @@ public class SampleCode : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        _bm.game = true;
         NewGame();
     }
 
@@ -171,7 +170,13 @@ public class SampleCode : MonoBehaviour
             }
         }
 
-        /*if (_bm.isUserWhite)
+        /*text.text = _bm.movetakenwhite[0].ToString() + _bm.movetakenblack[0].ToString();
+        for (int i = 1; i < 5; i++)
+        {
+            text.text += _bm.movetakenwhite[i].ToString() + _bm.movetakenblack[i].ToString();
+        }
+
+        if (_bm.isUserWhite)
         {
             _pl.Refresh((int)timeWhite);
             _opp.Refresh((int)timeBlack);

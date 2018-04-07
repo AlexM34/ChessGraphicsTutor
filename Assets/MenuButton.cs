@@ -41,7 +41,7 @@ public class MenuButton : MonoBehaviour
         takeback.gameObject.SetActive(active);
         exit.gameObject.SetActive(active);
         playButton.gameObject.SetActive(active);
-        slider.gameObject.SetActive(active);
+        //slider.gameObject.SetActive(active);
 
         if (active) GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
         else GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Menu";
