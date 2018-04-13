@@ -1,0 +1,2063 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     975 MB
+    Driver:   23.21.13.8875
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.139 seconds
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.876746 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1630 -> priority: 1 
+  Thread -> id: 14a0 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.908558 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 761.
+Total: 1.194089 ms (FindLiveObjects: 0.106579 ms CreateObjectMapping: 0.066711 ms MarkObjects: 0.990403 ms  DeleteObjects: 0.029210 ms)
+
+White wins!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'A.Monev'
+OS-Version: 6.1.7601 (Service Pack 1) 0x100-0x1
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe:CGT.exe (01390000), size: 18976768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe', fileVersion: 5.6.0.31247
+C:\Windows\SysWOW64\ntdll.dll:ntdll.dll (77300000), size: 1572864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\ntdll.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\kernel32.dll:kernel32.dll (76C60000), size: 1114112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\kernel32.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\KERNELBASE.dll:KERNELBASE.dll (76350000), size: 290816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\KERNELBASE.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\HID.DLL:HID.DLL (3FF50000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\msvcrt.dll:msvcrt.dll (763F0000), size: 704512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\msvcrt.dll', fileVersion: 7.0.7601.17744
+C:\Windows\syswow64\USER32.dll:USER32.dll (76660000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USER32.dll', fileVersion: 6.1.7601.23594
+C:\Windows\syswow64\GDI32.dll:GDI32.dll (76540000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\GDI32.dll', fileVersion: 6.1.7601.23914
+C:\Windows\syswow64\LPK.dll:LPK.dll (76F10000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\LPK.dll', fileVersion: 6.1.7601.24082
+C:\Windows\syswow64\USP10.dll:USP10.dll (74D20000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USP10.dll', fileVersion: 1.626.7601.23894
+C:\Windows\syswow64\ADVAPI32.dll:ADVAPI32.dll (76BB0000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ADVAPI32.dll', fileVersion: 6.1.7601.24094
+C:\Windows\SysWOW64\sechost.dll:sechost.dll (763A0000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\sechost.dll', fileVersion: 6.1.7601.18869
+C:\Windows\syswow64\RPCRT4.dll:RPCRT4.dll (76AC0000), size: 983040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\RPCRT4.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\SspiCli.dll:SspiCli.dll (74BB0000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SspiCli.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\CRYPTBASE.dll:CRYPTBASE.dll (74BA0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPTBASE.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\VERSION.dll:VERSION.dll (73F90000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VERSION.dll', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\ole32.dll:ole32.dll (75CF0000), size: 1429504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ole32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\syswow64\SHLWAPI.dll:SHLWAPI.dll (74C10000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHLWAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\SHELL32.dll:SHELL32.dll (74F20000), size: 12894208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHELL32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\OPENGL32.dll:OPENGL32.dll (193E0000), size: 819200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OPENGL32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\GLU32.dll:GLU32.dll (08D00000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GLU32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DDRAW.dll:DDRAW.dll (70280000), size: 946176 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DDRAW.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DCIMAN32.dll:DCIMAN32.dll (40040000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DCIMAN32.dll', fileVersion: 6.1.7601.24082
+C:\Windows\syswow64\SETUPAPI.dll:SETUPAPI.dll (76D70000), size: 1691648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SETUPAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\CFGMGR32.dll:CFGMGR32.dll (76A80000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CFGMGR32.dll', fileVersion: 6.1.7601.17621
+C:\Windows\syswow64\OLEAUT32.dll:OLEAUT32.dll (767A0000), size: 593920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\OLEAUT32.dll', fileVersion: 6.1.7601.23775
+C:\Windows\syswow64\DEVOBJ.dll:DEVOBJ.dll (75E60000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\DEVOBJ.dll', fileVersion: 6.1.7601.17621
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (6EB30000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.1.7601.18917
+C:\Windows\system32\WINMM.dll:WINMM.dll (6F260000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINMM.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\WS2_32.dll:WS2_32.dll (75E90000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WS2_32.dll', fileVersion: 6.1.7601.23451
+C:\Windows\syswow64\NSI.dll:NSI.dll (74F10000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\NSI.dll', fileVersion: 6.1.7601.23889
+C:\Windows\syswow64\IMM32.dll:IMM32.dll (76180000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\IMM32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\MSCTF.dll:MSCTF.dll (76280000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSCTF.dll', fileVersion: 6.1.7601.23915
+C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (6DDA0000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DNSAPI.dll', fileVersion: 6.1.7601.17570
+C:\Windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (73960000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IPHLPAPI.DLL', fileVersion: 6.1.7601.17514
+C:\Windows\system32\WINNSI.DLL:WINNSI.DLL (73950000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINNSI.DLL', fileVersion: 6.1.7601.23889
+C:\Windows\system32\WINHTTP.dll:WINHTTP.dll (6DF90000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINHTTP.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\webio.dll:webio.dll (6DF40000), size: 327680 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\system32\webio.dll', fileVersion: 6.1.7601.23375
+C:\Windows\SysWOW64\nvinit.dll:nvinit.dll (73CC0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\nvinit.dll', fileVersion: 23.21.13.8875
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll:detoured.dll (6DC80000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll'
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll:nvd3d9wrap.dll (6B4F0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll', fileVersion: 23.21.13.8875
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll:nvdxgiwrap.dll (6DC60000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll', fileVersion: 23.21.13.8875
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll:mono.dll (10000000), size: 2297856 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll', fileVersion: 1.0.0.1
+C:\Windows\syswow64\PSAPI.DLL:PSAPI.DLL (763C0000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\PSAPI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSWSOCK.dll:MSWSOCK.dll (73B90000), size: 245760 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSWSOCK.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\wship6.dll:wship6.dll (73980000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wship6.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (6DA10000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\d3d11.dll:d3d11.dll (6BC60000), size: 1527808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d11.dll', fileVersion: 6.2.9200.16570
+C:\Windows\system32\dxgi.dll:dxgi.dll (6BDE0000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dxgi.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\DXGIDebug.dll:DXGIDebug.dll (6AD90000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DXGIDebug.dll', fileVersion: 9.30.9600.17336
+C:\Windows\syswow64\WINTRUST.dll:WINTRUST.dll (76760000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WINTRUST.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\CRYPT32.dll:CRYPT32.dll (75B70000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPT32.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\MSASN1.dll:MSASN1.dll (764A0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSASN1.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\nvumdshim.dll:nvumdshim.dll (6BBB0000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvumdshim.dll', fileVersion: 23.21.13.8875
+C:\Windows\system32\nvwgf2um.dll:nvwgf2um.dll (06B70000), size: 19824640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvwgf2um.dll', fileVersion: 23.21.13.8875
+C:\Windows\system32\bcrypt.dll:bcrypt.dll (73990000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcrypt.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\nvspcap.dll:nvspcap.dll (0F520000), size: 2093056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap.dll', fileVersion: 3.11.0.73
+C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL:api-ms-win-core-synch-l1-2-0.DLL (6EAE0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL', fileVersion: 10.0.10586.1412
+C:\Windows\syswow64\profapi.dll:profapi.dll (76AB0000), size: 45056 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\syswow64\profapi.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\ntmarta.dll:ntmarta.dll (6F230000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ntmarta.dll', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\WLDAP32.dll:WLDAP32.dll (75CA0000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WLDAP32.dll', fileVersion: 6.1.7601.23889
+C:\Windows\system32\igd10iumd32.dll:igd10iumd32.dll (08070000), size: 12419072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igd10iumd32.dll', fileVersion: 20.19.15.4531
+C:\Windows\system32\ncrypt.dll:ncrypt.dll (73140000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ncrypt.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\igdusc32.dll:igdusc32.dll (61500000), size: 9220096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igdusc32.dll', fileVersion: 20.19.15.4531
+C:\Windows\syswow64\CLBCatQ.DLL:CLBCatQ.DLL (764B0000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CLBCatQ.DLL', fileVersion: 2001.12.8530.16385
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (6A7D0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbemcomn2.dll:wbemcomn2.dll (6A760000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbemcomn2.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\CRYPTSP.dll:CRYPTSP.dll (73B60000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPTSP.dll', fileVersion: 6.1.7601.23471
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (73B20000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\RpcRtRemote.dll:RpcRtRemote.dll (73540000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RpcRtRemote.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (6A740000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (6A690000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\NTDSAPI.dll:NTDSAPI.dll (6A670000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NTDSAPI.dll', fileVersion: 6.1.7600.16385
+C:\Windows\SysWOW64\bcryptprimitives.dll:bcryptprimitives.dll (73100000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\bcryptprimitives.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (6D990000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.1.7601.17514
+C:\Windows\System32\PROPSYS.dll:PROPSYS.dll (6D890000), size: 1003520 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PROPSYS.dll', fileVersion: 7.0.7601.17514
+C:\Windows\system32\wdmaud.drv:wdmaud.drv (679A0000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wdmaud.drv', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ksuser.dll:ksuser.dll (6EE10000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ksuser.dll', fileVersion: 6.1.7601.19091
+C:\Windows\system32\AVRT.dll:AVRT.dll (6F1B0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AVRT.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AUDIOSES.DLL:AUDIOSES.DLL (6D850000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AUDIOSES.DLL', fileVersion: 6.1.7601.23471
+C:\Windows\system32\msacm32.drv:msacm32.drv (6B7F0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msacm32.drv', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSACM32.dll:MSACM32.dll (656B0000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSACM32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\midimap.dll:midimap.dll (6B7E0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\midimap.dll', fileVersion: 6.1.7600.16385
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll:comctl32.dll (73550000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll', fileVersion: 6.10.7601.18837
+C:\Windows\system32\xinput1_3.dll:xinput1_3.dll (05E60000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Windows\system32\dhcpcsvc.DLL:dhcpcsvc.DLL (73930000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (73920000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc6.DLL', fileVersion: 6.1.7601.17970
+C:\Windows\system32\credssp.dll:credssp.dll (73530000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\credssp.dll', fileVersion: 6.1.7601.24094
+C:\Windows\System32\wshtcpip.dll:wshtcpip.dll (73B80000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wshtcpip.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\rasadhlp.dll:rasadhlp.dll (6DED0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rasadhlp.dll', fileVersion: 6.1.7600.16385
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (738E0000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 6.1.7601.24000
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\Engine.dll:Engine.dll (7FFF0000), size: 1600110592 (result: 0), SymType: 'PDB', PDB: 'C:\Users\A.Monev\source\repos\Engine\Release\Engine.pdb'
+C:\Windows\system32\VCRUNTIME140.dll:VCRUNTIME140.dll (65A80000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VCRUNTIME140.dll', fileVersion: 14.11.25325.0
+C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (65A70000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\ucrtbase.DLL:ucrtbase.DLL (65980000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ucrtbase.DLL', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll:api-ms-win-core-timezone-l1-1-0.dll (65940000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll:api-ms-win-core-file-l2-1-0.dll (657B0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll:api-ms-win-core-localization-l1-2-0.dll (65790000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll:api-ms-win-core-processthreads-l1-1-1.dll (657A0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll:api-ms-win-core-file-l1-2-0.dll (65780000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (65770000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (65760000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (65750000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (65740000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (656D0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (65700000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\dbghelp.dll:dbghelp.dll (73BD0000), size: 962560 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
+
+========== OUTPUTING STACK TRACE ==================
+
+0x7FFF4667 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:210] compmove 
+0x7FFF4433 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:115] Move 
+0x04F8C021 (Mono JIT Code) (wrapper managed-to-native) SampleCode:Move (int,double,int)
+0x04F9633D (Mono JIT Code) SampleCode:CPU (int)
+0x04F962AD (Mono JIT Code) SampleCode:User (int,int,int,int)
+0x04F8D099 (Mono JIT Code) CameraEvents:Update ()
+0x04F593C9 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x100F17E6 (mono) mono_set_defaults
+0x1005D865 (mono) mono_runtime_invoke
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 018E20E0)
+0x018E20E0 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 018DEC42)
+0x018DEC42 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01A85A6E)
+0x01A85A6E (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01A87CC1)
+0x01A87CC1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01A87CD7)
+0x01A87CD7 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 017BA2F1)
+0x017BA2F1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0140759B)
+0x0140759B (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01BD3E58)
+0x01BD3E58 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 01C11AD4)
+0x01C11AD4 (CGT) 
+0x76C7343D (kernel32) BaseThreadInitThunk
+0x77339832 (ntdll) RtlInitializeExceptionChain
+0x77339805 (ntdll) RtlInitializeExceptionChain
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****

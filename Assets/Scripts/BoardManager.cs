@@ -209,13 +209,6 @@ public class BoardManager : MonoBehaviour
             Chessman c = Chessmans[x, y];
             if (c != null && c.isWhite != isWhiteTurn)
             {
-                if (false && c.GetType() == typeof(King))
-                {
-                    if (isWhiteTurn) EndGame(1);
-                    else EndGame(-1);
-                    return;
-                }
-
                 Capture(x, y);
                 activeChessman.Remove(c.gameObject);
                 Destroy(c.gameObject);
@@ -294,11 +287,6 @@ public class BoardManager : MonoBehaviour
             x2 = x;
             y2 = y;
             Chessmans[selectedChessman.CurrentX, selectedChessman.CurrentY] = null;
-            /*float speed = Vector3.Distance(GetTileCenter(x, y), selectedChessman.transform.position) / 6000f;
-            while (selectedChessman.transform.position != GetTileCenter(x,y))
-            {
-                selectedChessman.transform.position = Vector3.MoveTowards(selectedChessman.transform.position, GetTileCenter(x, y), speed * Time.deltaTime);
-            }*/
             selectedChessman.transform.position = GetTileCenter(x, y);
             selectedChessman.SetPosition(x, y);
             Chessmans[x, y] = selectedChessman;
@@ -308,8 +296,6 @@ public class BoardManager : MonoBehaviour
         selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
         BoardHighlights.Instance.HideHighlights();
         selectedChessman = null;
-        //if (x1 != -1 && isWhiteTurn != isUserWhite) _sc.User(x1, y1, x2, y2);
-        //Debug.DrawRay(from, to, Color.blue);
         if (x1 != -1)
         {
             lineRenderer.enabled = true;
@@ -335,9 +321,6 @@ public class BoardManager : MonoBehaviour
 
             if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
-            //_sc.User(x1, y1, x2, y2);
-
-            //moves++;
         }
 
         if (puzzleMode && x1 != -1)
@@ -400,8 +383,6 @@ public class BoardManager : MonoBehaviour
 
             if (!isEngineOn) isUserWhite = !isUserWhite;
             if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
-
-            //moves++;
         }
         
         wait = false;
@@ -423,7 +404,7 @@ public class BoardManager : MonoBehaviour
             if (type == 4)
             {
                 o.x -= 0.15f;
-                o.y += 0.57f;
+                o.y += 0.6f;
                 o.z -= 0.09f;
             }
             movetakenwhite[whitedead] = moves;
@@ -435,7 +416,7 @@ public class BoardManager : MonoBehaviour
             if (type == 10)
             {
                 o.x += 0.15f;
-                o.y += 0.57f;
+                o.y += 0.6f;
                 o.z += 0.09f;
             }
             movetakenblack[blackdead] = moves;
@@ -643,14 +624,14 @@ public class BoardManager : MonoBehaviour
             if (index == 4)
             {
                 origin.x -= 0.15f;
-                origin.y = 0.57f;
+                origin.y = 0.6f;
                 origin.z -= 0.15f;
             }
 
             else if (index == 10)
             {
                 origin.x += 0.15f;
-                origin.y = 0.57f;
+                origin.y = 0.6f;
                 origin.z += 0.15f;
             }
         }
@@ -709,13 +690,13 @@ public class BoardManager : MonoBehaviour
                 if (selectedChessman.isWhite)
                 {
                     origin.x -= 0.15f;
-                    origin.y = 0.57f;
+                    origin.y = 0.6f;
                     origin.z -= 0.15f;
                 }
                 else
                 {
                     origin.x += 0.15f;
-                    origin.y = 0.57f;
+                    origin.y = 0.6f;
                     //origin.z += 0.15f;
                 }
             }
