@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
     public Text text;
 
     private void Start()

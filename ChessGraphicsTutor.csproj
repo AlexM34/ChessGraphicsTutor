@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\BoardManager.cs" />
     <Compile Include="Assets\Scripts\CameraEvents.cs" />
     <Compile Include="Assets\Scripts\Chessman.cs" />
+    <Compile Include="Assets\Scripts\Connect.cs" />
     <Compile Include="Assets\Scripts\Eight.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\Five.cs" />
@@ -110,7 +111,6 @@
     <Compile Include="Assets\Scripts\Puzzle.cs" />
     <Compile Include="Assets\Scripts\Queen.cs" />
     <Compile Include="Assets\Scripts\Rook.cs" />
-    <Compile Include="Assets\Scripts\SampleCode.cs" />
     <Compile Include="Assets\Scripts\Seven.cs" />
     <Compile Include="Assets\Scripts\Six.cs" />
     <Compile Include="Assets\Scripts\Takeback.cs" />

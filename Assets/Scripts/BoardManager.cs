@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoardManager : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
     public CameraEvents _camera;
     public PromoteQueen _queen;
     public PromoteRook _rook;
@@ -159,7 +159,7 @@ public class BoardManager : MonoBehaviour
         {
             for (int j = 0; j < 8; j++)
             {
-                if (allowedMoves[i, j] && (puzzleMode || isUserWhite != isWhiteTurn || _sc.Possible(i, j))) hasAtleastOneMove = true;
+                if (allowedMoves[i, j] && (puzzleMode || isUserWhite != isWhiteTurn || _connect.Possible(i, j))) hasAtleastOneMove = true;
             }
         }
 
@@ -179,7 +179,7 @@ public class BoardManager : MonoBehaviour
         y1 = -1;
         x2 = -1;
         y2 = -1;
-        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_sc.Possible(x, y)))
+        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_connect.Possible(x, y)))
         {
             selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
             BoardHighlights.Instance.HideHighlights();
@@ -394,7 +394,7 @@ public class BoardManager : MonoBehaviour
 
     private void Capture (int x, int y)
     {
-        _sc.text.text = moves.ToString();
+        _connect.text.text = moves.ToString();
         int type = TypeAsInt(x, y);
 
         Vector3 o;
@@ -749,17 +749,17 @@ public class BoardManager : MonoBehaviour
 
         if (result == 1)
         {
-            _sc.text.text = "White wins!";
+            _connect.text.text = "White wins!";
             Debug.Log("White wins!");
         }
         else if (result == 0)
         {
-            _sc.text.text = "Draw!";
+            _connect.text.text = "Draw!";
             Debug.Log("Draw!");
         }
         else
         {
-            _sc.text.text = "Black wins!";
+            _connect.text.text = "Black wins!";
             Debug.Log("Black wins!");
         }
     }

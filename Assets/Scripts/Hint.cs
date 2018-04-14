@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Hint : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
 
     public void ButtonClick()
     {
-        _sc.Hint();
+        _connect.Hint();
     }
 }

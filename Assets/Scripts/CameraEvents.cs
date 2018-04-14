@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraEvents : MonoBehaviour
 {
     public BoardManager _bm;
-    public SampleCode _sc;
+    public Connect _connect;
     private int waiting = 0;
 
     public Camera WhiteCamera, BlackCamera;
@@ -22,7 +22,7 @@ public class CameraEvents : MonoBehaviour
 
         if (waiting == 10)
         {
-            _sc.User(_bm.x1, _bm.y1, _bm.x2, _bm.y2);
+            _connect.User(_bm.x1, _bm.y1, _bm.x2, _bm.y2);
             _bm.send = false;
             waiting = 0;
         }

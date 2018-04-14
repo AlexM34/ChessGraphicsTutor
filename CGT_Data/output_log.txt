@@ -22,7 +22,7 @@ desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.160967 ms
+UnloadTime: 5.089545 ms
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -30,14 +30,8 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2320 -> priority: 1 
-  Thread -> id: 21f4 -> priority: 1 
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
+  Thread -> id: 914 -> priority: 1 
+  Thread -> id: 3288 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -425,20 +419,338 @@ The referenced script on this Behaviour (Game Object 'Canvas 16') is missing!
 (Filename:  Line: 1743)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.323330 ms
+UnloadTime: 10.245409 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 819.
-Total: 0.547127 ms (FindLiveObjects: 0.057633 ms CreateObjectMapping: 0.031580 ms MarkObjects: 0.443307 ms  DeleteObjects: 0.013421 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 802.
+Total: 1.851389 ms (FindLiveObjects: 0.295669 ms CreateObjectMapping: 0.116452 ms MarkObjects: 1.415977 ms  DeleteObjects: 0.019737 ms)
+
+Black wins!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+IndexOutOfRangeException: Array index is out of range.
+  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
 White wins!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.040596 ms
+IndexOutOfRangeException: Array index is out of range.
+  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 514.
-Total: 0.894114 ms (FindLiveObjects: 0.078950 ms CreateObjectMapping: 0.060791 ms MarkObjects: 0.592128 ms  DeleteObjects: 0.161059 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.359436 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 451.
+Total: 1.015698 ms (FindLiveObjects: 0.069081 ms CreateObjectMapping: 0.061186 ms MarkObjects: 0.755951 ms  DeleteObjects: 0.128294 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The referenced script on this Behaviour (Game Object 'Numbers') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '2') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Numbers') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 15') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '7') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '6') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '4') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '3') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '5') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '8') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '4') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 16 (1)') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 16') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.120702 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 803.
+Total: 1.565983 ms (FindLiveObjects: 0.150006 ms CreateObjectMapping: 0.135794 ms MarkObjects: 1.230049 ms  DeleteObjects: 0.048554 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.865629 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 451.
+Total: 0.855034 ms (FindLiveObjects: 0.065923 ms CreateObjectMapping: 0.054475 ms MarkObjects: 0.670684 ms  DeleteObjects: 0.062765 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 

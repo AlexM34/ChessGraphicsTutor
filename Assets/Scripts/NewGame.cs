@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class NewGame : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
 
     public void ButtonClick()
     {
-        _sc.New();
+        _connect.New();
     }
 }

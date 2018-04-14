@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Takeback : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
 
     public void ButtonClick()
     {
-        _sc.Takeback();
+        _connect.Takeback();
     }
 }

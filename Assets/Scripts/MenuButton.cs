@@ -15,6 +15,8 @@ public class MenuButton : MonoBehaviour
     public Canvas exit;
     public Button playButton;
     public Slider slider;
+    public Slider whiteSlider;
+    public Slider blackSlider;
 
     bool active = false;
 
@@ -28,6 +30,8 @@ public class MenuButton : MonoBehaviour
         exit.gameObject.SetActive(false);
         playButton.gameObject.SetActive(false);
         //slider.gameObject.SetActive(false);
+        whiteSlider.gameObject.SetActive(false);
+        blackSlider.gameObject.SetActive(false);
         active = false;
     }
 
@@ -42,6 +46,8 @@ public class MenuButton : MonoBehaviour
         exit.gameObject.SetActive(active);
         playButton.gameObject.SetActive(active);
         //slider.gameObject.SetActive(active);
+        whiteSlider.gameObject.SetActive(active);
+        blackSlider.gameObject.SetActive(active);
 
         if (active) GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
         else GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Menu";

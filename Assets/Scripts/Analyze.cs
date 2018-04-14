@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Analyze : MonoBehaviour
 {
-    public SampleCode _sc;
+    public Connect _connect;
 
     public void ButtonClick()
     {
-        _sc.Analyze();
+        _connect.Analyze();
     }
 }
