@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Chessman.cs" />
     <Compile Include="Assets\Scripts\Connect.cs" />
     <Compile Include="Assets\Scripts\Eight.cs" />
+    <Compile Include="Assets\Scripts\Evaluation.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\Five.cs" />
     <Compile Include="Assets\Scripts\Four.cs" />

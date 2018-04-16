@@ -15,14 +15,14 @@ Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_
 Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.039 seconds
+- Completed reload, in  0.043 seconds
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 5.089545 ms
+UnloadTime: 1.495322 ms
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -30,32 +30,8 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 914 -> priority: 1 
-  Thread -> id: 3288 -> priority: 1 
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
+  Thread -> id: 21c4 -> priority: 1 
+  Thread -> id: 2ae0 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
@@ -419,42 +395,132 @@ The referenced script on this Behaviour (Game Object 'Canvas 16') is missing!
 (Filename:  Line: 1743)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.245409 ms
+UnloadTime: 4.158718 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 802.
-Total: 1.851389 ms (FindLiveObjects: 0.295669 ms CreateObjectMapping: 0.116452 ms MarkObjects: 1.415977 ms  DeleteObjects: 0.019737 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 818.
+Total: 1.526113 ms (FindLiveObjects: 0.457913 ms CreateObjectMapping: 0.271984 ms MarkObjects: 0.774504 ms  DeleteObjects: 0.013026 ms)
 
-Black wins!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-IndexOutOfRangeException: Array index is out of range.
-  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at Evaluation.GetValue (Int32 eval) [0x00000] in <filename unknown>:0 
+  at Connect.CPU (Int32 move) [0x00000] in <filename unknown>:0 
+  at Connect.User (Int32 x1, Int32 y1, Int32 x2, Int32 y2) [0x00000] in <filename unknown>:0 
+  at CameraEvents.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-White wins!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-IndexOutOfRangeException: Array index is out of range.
+NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+  at BoardManager.Play (Int32 x1, Int32 y1, Int32 x2, Int32 y2) [0x00000] in <filename unknown>:0 
+  at Connect.CPU (Int32 move) [0x00000] in <filename unknown>:0 
+  at Connect.Flip () [0x00000] in <filename unknown>:0 
+  at Play.ButtonClick () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at BoardManager.Play (Int32 x1, Int32 y1, Int32 x2, Int32 y2) [0x00000] in <filename unknown>:0 
+  at Connect.CPU (Int32 move) [0x00000] in <filename unknown>:0 
+  at Connect.Flip () [0x00000] in <filename unknown>:0 
+  at Play.ButtonClick () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at BoardManager.Play (Int32 x1, Int32 y1, Int32 x2, Int32 y2) [0x00000] in <filename unknown>:0 
+  at Connect.CPU (Int32 move) [0x00000] in <filename unknown>:0 
+  at Connect.Flip () [0x00000] in <filename unknown>:0 
+  at Play.ButtonClick () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.MoveChessman (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at BoardManager.Play (Int32 x1, Int32 y1, Int32 x2, Int32 y2) [0x00000] in <filename unknown>:0 
+  at Connect.CPU (Int32 move) [0x00000] in <filename unknown>:0 
+  at Connect.Flip () [0x00000] in <filename unknown>:0 
+  at Play.ButtonClick () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename:  Line: -1)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.359436 ms
+UnloadTime: 1.654803 ms
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 451.
-Total: 1.015698 ms (FindLiveObjects: 0.069081 ms CreateObjectMapping: 0.061186 ms MarkObjects: 0.755951 ms  DeleteObjects: 0.128294 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 452.
+Total: 1.341369 ms (FindLiveObjects: 0.158690 ms CreateObjectMapping: 0.069871 ms MarkObjects: 1.052805 ms  DeleteObjects: 0.056844 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
@@ -509,242 +575,6 @@ NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
-  at BoardManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-The referenced script on this Behaviour (Game Object 'Numbers') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '2') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'Numbers') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'Canvas 15') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '7') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '6') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '4') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '3') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '5') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '8') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '4') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'Canvas 16 (1)') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object '1') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'Canvas 16') is missing!
- 
-(Filename:  Line: 1743)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.120702 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 803.
-Total: 1.565983 ms (FindLiveObjects: 0.150006 ms CreateObjectMapping: 0.135794 ms MarkObjects: 1.230049 ms  DeleteObjects: 0.048554 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.865629 ms
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 451.
-Total: 0.855034 ms (FindLiveObjects: 0.065923 ms CreateObjectMapping: 0.054475 ms MarkObjects: 0.670684 ms  DeleteObjects: 0.062765 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
   at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 

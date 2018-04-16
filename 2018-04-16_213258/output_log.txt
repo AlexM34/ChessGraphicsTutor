@@ -1,0 +1,591 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     975 MB
+    Driver:   23.21.13.8875
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 48Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.744806 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2cb8 -> priority: 1 
+  Thread -> id: 2b1c -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BoardManager.UpdateSelection () [0x00000] in <filename unknown>:0 
+  at BoardManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The referenced script on this Behaviour (Game Object 'Numbers') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '2') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Numbers') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 15') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '7') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '6') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '4') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '3') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '5') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '8') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '4') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 16 (1)') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object '1') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Canvas 16') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.557961 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 818.
+Total: 0.708975 ms (FindLiveObjects: 0.078161 ms CreateObjectMapping: 0.061581 ms MarkObjects: 0.555811 ms  DeleteObjects: 0.012632 ms)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'A.Monev'
+OS-Version: 6.1.7601 (Service Pack 1) 0x100-0x1
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe:CGT.exe (00250000), size: 18976768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT.exe', fileVersion: 5.6.0.31247
+C:\Windows\SysWOW64\ntdll.dll:ntdll.dll (77A70000), size: 1572864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\ntdll.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\kernel32.dll:kernel32.dll (76CE0000), size: 1114112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\kernel32.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\KERNELBASE.dll:KERNELBASE.dll (76AD0000), size: 290816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\KERNELBASE.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\HID.DLL:HID.DLL (6CB60000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\msvcrt.dll:msvcrt.dll (75C40000), size: 704512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\msvcrt.dll', fileVersion: 7.0.7601.17744
+C:\Windows\syswow64\USER32.dll:USER32.dll (77390000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USER32.dll', fileVersion: 6.1.7601.23594
+C:\Windows\syswow64\GDI32.dll:GDI32.dll (75B90000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\GDI32.dll', fileVersion: 6.1.7601.23914
+C:\Windows\syswow64\LPK.dll:LPK.dll (75C30000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\LPK.dll', fileVersion: 6.1.7601.24082
+C:\Windows\syswow64\USP10.dll:USP10.dll (77130000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\USP10.dll', fileVersion: 1.626.7601.23894
+C:\Windows\syswow64\ADVAPI32.dll:ADVAPI32.dll (75760000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ADVAPI32.dll', fileVersion: 6.1.7601.24094
+C:\Windows\SysWOW64\sechost.dll:sechost.dll (75830000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\sechost.dll', fileVersion: 6.1.7601.18869
+C:\Windows\syswow64\RPCRT4.dll:RPCRT4.dll (75860000), size: 983040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\RPCRT4.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\SspiCli.dll:SspiCli.dll (75320000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SspiCli.dll', fileVersion: 6.1.7601.24094
+C:\Windows\syswow64\CRYPTBASE.dll:CRYPTBASE.dll (75310000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPTBASE.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\VERSION.dll:VERSION.dll (72FD0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VERSION.dll', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\ole32.dll:ole32.dll (77230000), size: 1429504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\ole32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\syswow64\SHLWAPI.dll:SHLWAPI.dll (754D0000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHLWAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\SHELL32.dll:SHELL32.dll (75D90000), size: 12894208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SHELL32.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\OPENGL32.dll:OPENGL32.dll (593F0000), size: 819200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OPENGL32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\GLU32.dll:GLU32.dll (5D430000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GLU32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DDRAW.dll:DDRAW.dll (6CC60000), size: 946176 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DDRAW.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DCIMAN32.dll:DCIMAN32.dll (71E10000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DCIMAN32.dll', fileVersion: 6.1.7601.24082
+C:\Windows\syswow64\SETUPAPI.dll:SETUPAPI.dll (755C0000), size: 1691648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\SETUPAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\CFGMGR32.dll:CFGMGR32.dll (771D0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CFGMGR32.dll', fileVersion: 6.1.7601.17621
+C:\Windows\syswow64\OLEAUT32.dll:OLEAUT32.dll (75CF0000), size: 593920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\OLEAUT32.dll', fileVersion: 6.1.7601.23775
+C:\Windows\syswow64\DEVOBJ.dll:DEVOBJ.dll (75810000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\DEVOBJ.dll', fileVersion: 6.1.7601.17621
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (6DE10000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.1.7601.18917
+C:\Windows\system32\WINMM.dll:WINMM.dll (6E2B0000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINMM.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\WS2_32.dll:WS2_32.dll (775D0000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WS2_32.dll', fileVersion: 6.1.7601.23451
+C:\Windows\syswow64\NSI.dll:NSI.dll (769F0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\NSI.dll', fileVersion: 6.1.7601.23889
+C:\Windows\syswow64\IMM32.dll:IMM32.dll (76DF0000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\IMM32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\syswow64\MSCTF.dll:MSCTF.dll (76A00000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSCTF.dll', fileVersion: 6.1.7601.23915
+C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (6BAC0000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DNSAPI.dll', fileVersion: 6.1.7601.17570
+C:\Windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (729B0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IPHLPAPI.DLL', fileVersion: 6.1.7601.17514
+C:\Windows\system32\WINNSI.DLL:WINNSI.DLL (729A0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINNSI.DLL', fileVersion: 6.1.7601.23889
+C:\Windows\system32\WINHTTP.dll:WINHTTP.dll (6D010000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINHTTP.dll', fileVersion: 6.1.7601.24000
+C:\Windows\system32\webio.dll:webio.dll (6CFC0000), size: 327680 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\system32\webio.dll', fileVersion: 6.1.7601.23375
+C:\Windows\SysWOW64\nvinit.dll:nvinit.dll (72D00000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\nvinit.dll', fileVersion: 23.21.13.8875
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll:detoured.dll (6BA30000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll'
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll:nvd3d9wrap.dll (6B950000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll', fileVersion: 23.21.13.8875
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll:nvdxgiwrap.dll (6B480000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll', fileVersion: 23.21.13.8875
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll:mono.dll (10000000), size: 2297856 (result: 0), SymType: '-exported-', PDB: 'C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\CGT_Data\Mono\mono.dll', fileVersion: 1.0.0.1
+C:\Windows\syswow64\PSAPI.DLL:PSAPI.DLL (76BB0000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\PSAPI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSWSOCK.dll:MSWSOCK.dll (72BD0000), size: 245760 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSWSOCK.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\wship6.dll:wship6.dll (72610000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wship6.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (6B700000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\d3d11.dll:d3d11.dll (6BFA0000), size: 1527808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d11.dll', fileVersion: 6.2.9200.16570
+C:\Windows\system32\dxgi.dll:dxgi.dll (6C130000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dxgi.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\DXGIDebug.dll:DXGIDebug.dll (67420000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DXGIDebug.dll', fileVersion: 9.30.9600.17336
+C:\Windows\syswow64\WINTRUST.dll:WINTRUST.dll (76BC0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WINTRUST.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\CRYPT32.dll:CRYPT32.dll (774A0000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CRYPT32.dll', fileVersion: 6.1.7601.23971
+C:\Windows\syswow64\MSASN1.dll:MSASN1.dll (76C60000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\MSASN1.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\nvumdshim.dll:nvumdshim.dll (6BF10000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvumdshim.dll', fileVersion: 23.21.13.8875
+C:\Windows\system32\nvwgf2um.dll:nvwgf2um.dll (54900000), size: 19824640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvwgf2um.dll', fileVersion: 23.21.13.8875
+C:\Windows\system32\bcrypt.dll:bcrypt.dll (729D0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcrypt.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\nvspcap.dll:nvspcap.dll (58D40000), size: 2093056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap.dll', fileVersion: 3.11.0.73
+C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL:api-ms-win-core-synch-l1-2-0.DLL (6E1B0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL', fileVersion: 10.0.10586.1412
+C:\Windows\syswow64\profapi.dll:profapi.dll (76C50000), size: 45056 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\syswow64\profapi.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\ntmarta.dll:ntmarta.dll (6E280000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ntmarta.dll', fileVersion: 6.1.7600.16385
+C:\Windows\syswow64\WLDAP32.dll:WLDAP32.dll (76C00000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\WLDAP32.dll', fileVersion: 6.1.7601.23889
+C:\Windows\system32\igd10iumd32.dll:igd10iumd32.dll (0F2A0000), size: 12419072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igd10iumd32.dll', fileVersion: 20.19.15.4531
+C:\Windows\system32\ncrypt.dll:ncrypt.dll (72190000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ncrypt.dll', fileVersion: 6.1.7601.24094
+C:\Windows\system32\igdusc32.dll:igdusc32.dll (60720000), size: 9220096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igdusc32.dll', fileVersion: 20.19.15.4531
+C:\Windows\syswow64\CLBCatQ.DLL:CLBCatQ.DLL (76B20000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\syswow64\CLBCatQ.DLL', fileVersion: 2001.12.8530.16385
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (6AC30000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbemcomn2.dll:wbemcomn2.dll (6ABC0000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbemcomn2.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\CRYPTSP.dll:CRYPTSP.dll (72BA0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPTSP.dll', fileVersion: 6.1.7601.23471
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (72B60000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\RpcRtRemote.dll:RpcRtRemote.dll (725D0000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RpcRtRemote.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (6ABA0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (6AAC0000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 10.0.10586.117
+C:\Windows\system32\NTDSAPI.dll:NTDSAPI.dll (6AAA0000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NTDSAPI.dll', fileVersion: 6.1.7600.16385
+C:\Windows\SysWOW64\bcryptprimitives.dll:bcryptprimitives.dll (72150000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SysWOW64\bcryptprimitives.dll', fileVersion: 6.1.7601.23451
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (6B680000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.1.7601.17514
+C:\Windows\System32\PROPSYS.dll:PROPSYS.dll (6B580000), size: 1003520 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PROPSYS.dll', fileVersion: 7.0.7601.17514
+C:\Windows\system32\wdmaud.drv:wdmaud.drv (6C1E0000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wdmaud.drv', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ksuser.dll:ksuser.dll (6E200000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ksuser.dll', fileVersion: 6.1.7601.19091
+C:\Windows\system32\AVRT.dll:AVRT.dll (6E1E0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AVRT.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AUDIOSES.DLL:AUDIOSES.DLL (6B540000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AUDIOSES.DLL', fileVersion: 6.1.7601.23471
+C:\Windows\system32\msacm32.drv:msacm32.drv (6C1D0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msacm32.drv', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSACM32.dll:MSACM32.dll (65A50000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSACM32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\midimap.dll:midimap.dll (6C1C0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\midimap.dll', fileVersion: 6.1.7600.16385
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll:comctl32.dll (72620000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d\comctl32.dll', fileVersion: 6.10.7601.18837
+C:\Windows\system32\xinput1_3.dll:xinput1_3.dll (06070000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Windows\system32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (72600000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc6.DLL', fileVersion: 6.1.7601.17970
+C:\Windows\system32\dhcpcsvc.DLL:dhcpcsvc.DLL (725E0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dhcpcsvc.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\credssp.dll:credssp.dll (725C0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\credssp.dll', fileVersion: 6.1.7601.24094
+C:\Windows\System32\wshtcpip.dll:wshtcpip.dll (72BC0000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wshtcpip.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\rasadhlp.dll:rasadhlp.dll (6BA60000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rasadhlp.dll', fileVersion: 6.1.7600.16385
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (72560000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 6.1.7601.24000
+C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\Engine.dll:Engine.dll (7FFF0000), size: 1600110592 (result: 0), SymType: 'PDB', PDB: 'C:\Users\A.Monev\source\repos\Engine\Release\Engine.pdb'
+C:\Windows\system32\VCRUNTIME140.dll:VCRUNTIME140.dll (68670000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VCRUNTIME140.dll', fileVersion: 14.11.25325.0
+C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (68660000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\ucrtbase.DLL:ucrtbase.DLL (68570000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ucrtbase.DLL', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll:api-ms-win-core-timezone-l1-1-0.dll (68560000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-timezone-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll:api-ms-win-core-file-l2-1-0.dll (68550000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l2-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll:api-ms-win-core-localization-l1-2-0.dll (68540000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-localization-l1-2-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll:api-ms-win-core-processthreads-l1-1-1.dll (68530000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-processthreads-l1-1-1.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll:api-ms-win-core-file-l1-2-0.dll (68520000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-core-file-l1-2-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (68510000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (68500000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (684F0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (684E0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (68250000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (684A0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.10586.1412
+C:\Windows\system32\dbghelp.dll:dbghelp.dll (72C10000), size: 962560 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
+
+========== OUTPUTING STACK TRACE ==================
+
+0x7FFF4667 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:210] compmove 
+0x7FFF4433 (Engine) [c:\users\a.monev\source\repos\engine\engine\sharedapi.cpp:115] Move 
+0x051FC4D1 (Mono JIT Code) (wrapper managed-to-native) Connect:Move (int,double,int)
+0x05203DB8 (Mono JIT Code) Connect:Evaluation ()
+0x05203D87 (Mono JIT Code) Evaluation:ButtonClick ()
+0x051F7EE4 (Mono JIT Code) UnityEngine.Events.InvokableCall:Invoke (object[])
+0x051F565F (Mono JIT Code) UnityEngine.Events.InvokableCallList:Invoke (object[])
+0x051F5250 (Mono JIT Code) UnityEngine.Events.UnityEventBase:Invoke (object[])
+0x051F65CE (Mono JIT Code) UnityEngine.Events.UnityEvent:Invoke ()
+0x051F659C (Mono JIT Code) UnityEngine.UI.Button:Press ()
+0x051F6540 (Mono JIT Code) UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData)
+0x051F6510 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData)
+0x051F3DD6 (Mono JIT Code) UnityEngine.EventSystems.ExecuteEvents:Execute<object> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<object>)
+0x051F205F (Mono JIT Code) UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress (UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData)
+0x051EEC78 (Mono JIT Code) UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent (int)
+0x051EEBAB (Mono JIT Code) UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent ()
+0x051EE2C9 (Mono JIT Code) UnityEngine.EventSystems.StandaloneInputModule:Process ()
+0x051DD9D1 (Mono JIT Code) UnityEngine.EventSystems.EventSystem:Update ()
+0x051C93C9 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x100F17E6 (mono) mono_set_defaults
+0x1005D865 (mono) mono_runtime_invoke
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 007A20E0)
+0x007A20E0 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0079EC42)
+0x0079EC42 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00945A6E)
+0x00945A6E (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00947CC1)
+0x00947CC1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00947CD7)
+0x00947CD7 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0067A2F1)
+0x0067A2F1 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 002C759B)
+0x002C759B (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00A93E58)
+0x00A93E58 (CGT) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00AD1AD4)
+0x00AD1AD4 (CGT) 
+0x76CF343D (kernel32) BaseThreadInitThunk
+0x77AA9832 (ntdll) RtlInitializeExceptionChain
+0x77AA9805 (ntdll) RtlInitializeExceptionChain
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****

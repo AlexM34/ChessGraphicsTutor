@@ -19,6 +19,7 @@ public class Connect : MonoBehaviour
     public Play _play;
     public Opponent _opp;
     public Player _pl;
+    public Evaluation _eval;
 
     [DllImport("Engine.dll", CharSet = CharSet.Unicode)]
     static extern int Move(int move, double time, int l);
@@ -225,8 +226,15 @@ public class Connect : MonoBehaviour
         NewGame ();
     }
 
+    public void Evaluation()
+    {
+        int eval = Move(-22, 10, 1);
+        _eval.GetValue(eval);
+    }
+
     private void CPU(int move)
     {
+        _eval.GetValue(-99999);
         DateTime start = DateTime.Now;
         int m;
         double time;
