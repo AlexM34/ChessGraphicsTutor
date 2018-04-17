@@ -6,7 +6,8 @@ public class Puzzle : MonoBehaviour
 {
     public BoardManager _bm;
     public int last = -1;
-
+    string[] lines = System.IO.File.ReadAllLines(@"C:\Users\A.Monev\Documents\GitHub\CGT\ChessGraphicsTutor\Assets\Scripts\puzzles.txt");
+    
     bool[] color = new bool[7] { true, true, true, false, true, false, true };
     int[] pos1 = new int[9] { 0, 1, 5, 1, 0, 0, 6, 1, 7 };
     int[] sol1 = new int[4] { 0, 0, 7, 7 };
@@ -23,15 +24,71 @@ public class Puzzle : MonoBehaviour
     int[] pos7 = new int[30] { 0, 2, 0, 2, 3, 1, 5, 0, 1, 5, 0, 2, 5, 0, 3, 5, 0, 4, 5, 0, 5, 5, 0, 6, 6, 0, 7, 9, 3, 0 };
     int[] sol7 = new int[60] { 3, 1, 3, 0, 0, 7, 0, 6, 3, 0, 3, 7, 0, 6, 0, 5, 3, 7, 3, 6, 0, 5, 0, 4, 3, 6, 3, 5, 0, 4, 0, 3, 3, 5, 3, 4, 0, 3, 0, 2, 3, 4, 3, 3, 0, 2, 0, 1, 3, 3, 3, 2, 0, 1, 0, 0, 3, 2, 0, 2 };
 
+    private void Update()
+    {
+        if (_bm.puzzleMode && !_bm.puzzleLoaded)
+        {
+            _bm.puzzleLoaded = true;
+            ButtonClick();
+        }
+    }
+
     public void ButtonClick()
     {
+        if (_bm.puzzleMode && _bm._connect.timeWhite < 0f) return;
+
+        int r = Random.Range(0, 7);
+        while (r == last) r = Random.Range(0, 7);
+
+        last = r;
+
+        string line = lines[r];
+
+        int current = 0, index = 0, l = 0;
+        int[] pos = new int[96];
+        int[] sol = new int[100];
+        bool white = true;
+        if (line[0] == '0') white = false;
+
+        for (int i = 2; i < line.Length; i++)
+        {
+            if (line[i] == 'x')
+            {
+                l = i + 2;
+                pos[index] = -1;
+                index = 0;
+                break;
+            }
+
+            else if (line[i] != ' ') current = 10 * current + (int)(line[i] - '0');
+            else
+            {
+                pos[index] = current;
+                current = 0;
+                index++;
+            }
+        }
+
+        for (int i = l; i < line.Length; i += 2)
+        {
+            sol[index] = (int)(line[i] - '0');
+            //_bm._connect.text.text += " " + sol[index];
+            index++;
+        }
+        
+        sol[index] = -1;
+        //_bm._connect.text.text += " " + sol[index];
+
+        _bm.Puzzle(pos, sol, white);
+
+        /*if (_bm.puzzleMode && _bm._connect.timeWhite < 0f) return;
+
         int r = Random.Range(1, 8);
         while (r == last)
         {
             r = Random.Range(1, 8);
         }
         last = r;
-        last = 7;
 
         switch (r)
         {
@@ -42,6 +99,6 @@ public class Puzzle : MonoBehaviour
             case 5: _bm.Puzzle(pos5, sol5, color[r-1]); break;
             case 6: _bm.Puzzle(pos6, sol6, color[r-1]); break;
             case 7: _bm.Puzzle(pos7, sol7, color[r-1]); break;
-        }
+        }*/
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoardManager : MonoBehaviour
 {
     public Connect _connect;
+    public Puzzle _puzzle;
     public CameraEvents _camera;
     public PromoteQueen _queen;
     public PromoteRook _rook;
@@ -29,6 +30,7 @@ public class BoardManager : MonoBehaviour
     public bool isEnded = false;
     public bool wait = false;
     public bool puzzleMode = false;
+    public bool puzzleLoaded = false;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
@@ -39,12 +41,13 @@ public class BoardManager : MonoBehaviour
     public int piece_x = -1;
     public int piece_y = -1;
     public int puzzleMoves = 100;
-    private int whitedead = 0;
-    private int blackdead = 0;
+    public int whitedead = 0;
+    public int blackdead = 0;
+    public int solved = 0;
     public int[] movetakenwhite = new int[15];
     public int[] movetakenblack = new int[15];
-    private GameObject[] goWhite = new GameObject[15];
-    private GameObject[] goBlack = new GameObject[15];
+    public GameObject[] goWhite = new GameObject[15];
+    public GameObject[] goBlack = new GameObject[15];
 
     Color color = new Color
     {
@@ -56,7 +59,7 @@ public class BoardManager : MonoBehaviour
 
     public List<GameObject> chessmanPrefabs;
     public List<GameObject> activeChessman = new List<GameObject>();
-    private LineRenderer lineRenderer;
+    public LineRenderer lineRenderer;
 
     private Material previousMat;
     public Material selectedMat;
@@ -65,7 +68,7 @@ public class BoardManager : MonoBehaviour
 
     public bool isWhiteTurn = true;
 
-    private void Start()
+    public virtual void Start()
     {
         Instance = this;
         lineRenderer = gameObject.AddComponent<LineRenderer>();
@@ -79,11 +82,12 @@ public class BoardManager : MonoBehaviour
             if (goBlack[i] != null) Destroy(goBlack[i].gameObject);
         }
 
-        SpawnAllChessmans();
+        if (puzzleMode) _puzzle.ButtonClick();
+        else SpawnAllChessmans();
         //_queen.Promotion();
     }
 
-    public void NewGame ()
+    public virtual void NewGame ()
     {
         foreach (GameObject go in activeChessman) Destroy(go);
 
@@ -91,7 +95,6 @@ public class BoardManager : MonoBehaviour
         if (!isEngineOn) isUserWhite = true;
         lineRenderer.enabled = false;
         isEnded = false;
-        puzzleMode = false;
         whitedead = 0;
         blackdead = 0;
         moves = 0;
@@ -107,7 +110,14 @@ public class BoardManager : MonoBehaviour
         BoardHighlights.Instance.HideHighlights();
 
         Instance = this;
-        SpawnAllChessmans();
+
+        if (puzzleMode)
+        {
+            solved = 0;
+            _puzzle.ButtonClick();
+        }
+
+        else SpawnAllChessmans();
     }
 
     private void Update()
@@ -150,6 +160,7 @@ public class BoardManager : MonoBehaviour
         if (isEnded || wait) return;
         if (Chessmans[x, y] == null) return;
         if (Chessmans[x, y].isWhite != isWhiteTurn) return;
+        if (puzzleMode && _connect.timeWhite < 0f) return;
 
         bool hasAtleastOneMove = false;
         allowedMoves = Chessmans[x, y].PossibleMove();
@@ -179,7 +190,7 @@ public class BoardManager : MonoBehaviour
         y1 = -1;
         x2 = -1;
         y2 = -1;
-        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_connect.Possible(x, y)))
+        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_connect.Possible(x, y)) || (puzzleMode && _connect.timeWhite < 0f))
         {
             selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
             BoardHighlights.Instance.HideHighlights();
@@ -613,16 +624,29 @@ public class BoardManager : MonoBehaviour
 
         for (int i = 0; i < pos.Length; i += 3)
         {
+            if (pos[i] == -1) break;
+
             SpawnChessman(pos[i], pos[i + 1], pos[i + 2]);
         }
 
         puzzleMoves = sol.Length / 4;
         for (int i = 0; i < sol.Length; i += 4)
         {
-            solution[i] = sol[sol.Length - 4 - i];
-            solution[i+1] = sol[sol.Length - 3 - i];
-            solution[i+2] = sol[sol.Length - 2 - i];
-            solution[i+3] = sol[sol.Length - 1 - i];
+            //_connect.text.text += " C" + i;
+            if (sol[i] == -1)
+            {
+                puzzleMoves = i / 4;
+                break;
+            }
+        }
+        //_connect.text.text += " PM " + puzzleMoves;
+
+        for (int i = 0; i < puzzleMoves * 4; i += 4)
+        {
+            solution[i] = sol[puzzleMoves * 4 - 4 - i];
+            solution[i+1] = sol[puzzleMoves * 4 - 3 - i];
+            solution[i+2] = sol[puzzleMoves * 4 - 2 - i];
+            solution[i+3] = sol[puzzleMoves * 4 - 1 - i];
         }
     }
 
@@ -754,7 +778,7 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    public void EndGame (int result)
+    public virtual void EndGame (int result)
     {
         isEnded = true;
 
@@ -772,6 +796,14 @@ public class BoardManager : MonoBehaviour
         {
             _connect.text.text = "Black wins!";
             Debug.Log("Black wins!");
+        }
+
+        if (puzzleMode)
+        {
+            solved++;
+            _connect.text.text = solved.ToString();
+
+            _puzzle.ButtonClick();
         }
     }
 }

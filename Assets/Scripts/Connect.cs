@@ -111,12 +111,17 @@ public class Connect : MonoBehaviour
         GameObject.Find("Slider").GetComponentInChildren<Text>().text = "Level " + _play.mainSlider.value;// + "/10";
         puzzleMode = _bm.puzzleMode;
 
-        if (_bm.isWhiteTurn) timeWhite -= Time.deltaTime;
+        if (_bm.isWhiteTurn || puzzleMode) timeWhite -= Time.deltaTime;
         else timeBlack -= Time.deltaTime;
 
         if (timeWhite <= 0f)
         {
-            if (timeBlack > 0f)
+            if (puzzleMode)
+            {
+                text.text = "Final score:" + "\r\n      " + _bm.solved + "\r\n\r\n";
+            }
+
+            else if (timeBlack > 0f)
             {
                 text.text = "White lost on time";
                 if (_bm.isEngineOn) _bm.EndGame(-1);
@@ -129,7 +134,19 @@ public class Connect : MonoBehaviour
         }
         else if (!_bm.isEnded)
         {
-            if (_bm.isUserWhite)
+            if (puzzleMode)
+            {
+                text.text = "   Solved:" + "\r\n      " + _bm.solved + "\r\n\r\n";
+
+                if ((int)timeWhite >= 3600) text.text += ((int)timeWhite / 3600).ToString() + ":";
+                else text.text += "  ";
+                if (((int)timeWhite % 3600) < 600 && ((int)timeWhite >= 3600)) text.text += "0";
+                if ((int)timeWhite < 600) text.text += " ";
+                text.text += (((int)timeWhite % 3600) / 60).ToString() + ".";
+                if (((int)timeWhite % 60) < 10) text.text += "0";
+                text.text += ((int)timeWhite % 60).ToString();
+            }
+            else if (_bm.isUserWhite)
             {
                 text.text = "        ";
                 if ((int)timeBlack >= 3600) text.text += ((int)timeBlack / 3600).ToString() + ":";
@@ -139,6 +156,7 @@ public class Connect : MonoBehaviour
                 text.text += (((int)timeBlack % 3600) / 60).ToString() + ".";
                 if (((int)timeBlack % 60) < 10) text.text += "0";
                 text.text += ((int)timeBlack % 60).ToString() + "\r\n\r\n\r\n";
+
                 if ((int)timeWhite >= 3600) text.text += ((int)timeWhite / 3600).ToString() + ":";
                 else text.text += "  ";
                 if (((int)timeWhite % 3600) < 600 && ((int)timeWhite >= 3600)) text.text += "0";
@@ -159,6 +177,7 @@ public class Connect : MonoBehaviour
                 text.text += (((int)timeWhite % 3600) / 60).ToString() + ".";
                 if (((int)timeWhite % 60) < 10) text.text += "0";
                 text.text += ((int)timeWhite % 60).ToString() + "\r\n\r\n\r\n";
+
                 if ((int)timeBlack >= 3600) text.text += ((int)timeBlack / 3600).ToString() + ":";
                 else text.text += "  ";
                 if (((int)timeBlack % 3600) < 600 && ((int)timeBlack >= 3600)) text.text += "0";
@@ -234,7 +253,6 @@ public class Connect : MonoBehaviour
 
     private void CPU(int move)
     {
-        _eval.GetValue(-99999);
         DateTime start = DateTime.Now;
         int m;
         double time;
@@ -275,6 +293,7 @@ public class Connect : MonoBehaviour
         TimeSpan diff = DateTime.Now - start;
         if (_bm.isUserWhite) timeBlack -= diff.TotalSeconds;
         else timeWhite -= diff.TotalSeconds;
+        _eval.hide = true;
     }
 
     public void SlowMotion ()

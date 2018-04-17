@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     public Canvas quitMenu;
     public Button playButton;
     public Button exitButton;
+    public BoardManager _bm;
 
 	void Start ()
     {
@@ -36,6 +37,11 @@ public class Menu : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("ChessGame");
+    }
+
+    public void Exercise()
+    {
+        SceneManager.LoadScene("Puzzles");
     }
 
     public void ExitGame()

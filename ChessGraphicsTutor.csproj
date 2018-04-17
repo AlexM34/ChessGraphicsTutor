@@ -80,13 +80,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Analyze.cs" />
+    <Compile Include="Assets\Scripts\BMPuzzles.cs" />
     <Compile Include="Assets\Scripts\BMStart.cs" />
     <Compile Include="Assets\Scripts\Bishop.cs" />
     <Compile Include="Assets\Scripts\BoardHighlights.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
     <Compile Include="Assets\Scripts\CameraEvents.cs" />
+    <Compile Include="Assets\Scripts\CameraEventsP.cs" />
     <Compile Include="Assets\Scripts\Chessman.cs" />
     <Compile Include="Assets\Scripts\Connect.cs" />
+    <Compile Include="Assets\Scripts\ConnectPuzzles.cs" />
     <Compile Include="Assets\Scripts\Eight.cs" />
     <Compile Include="Assets\Scripts\Evaluation.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
@@ -110,6 +113,7 @@
     <Compile Include="Assets\Scripts\PromoteQueen.cs" />
     <Compile Include="Assets\Scripts\PromoteRook.cs" />
     <Compile Include="Assets\Scripts\Puzzle.cs" />
+    <Compile Include="Assets\Scripts\PuzzleP.cs" />
     <Compile Include="Assets\Scripts\Queen.cs" />
     <Compile Include="Assets\Scripts\Rook.cs" />
     <Compile Include="Assets\Scripts\Seven.cs" />
@@ -119,6 +123,7 @@
     <Compile Include="Assets\Scripts\Two.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Scripts\puzzles.txt" />
     <None Include="Assets\Standard Assets\3D Text.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />

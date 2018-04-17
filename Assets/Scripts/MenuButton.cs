@@ -23,36 +23,36 @@ public class MenuButton : MonoBehaviour
 
     private void Start()
     {
-        puzzle.gameObject.SetActive(false);
-        analyze.gameObject.SetActive(false);
+        active = false;
+
         newgame.gameObject.SetActive(false);
         hint.gameObject.SetActive(false);
-        takeback.gameObject.SetActive(false);
         exit.gameObject.SetActive(false);
+        whiteSlider.gameObject.SetActive(false);
+        puzzle.gameObject.SetActive(false);
+        analyze.gameObject.SetActive(false);
+        takeback.gameObject.SetActive(false);
         evaluation.gameObject.SetActive(false);
         playButton.gameObject.SetActive(false);
-        //slider.gameObject.SetActive(false);
-        whiteSlider.gameObject.SetActive(false);
         blackSlider.gameObject.SetActive(false);
-        active = false;
     }
 
     public void ButtonClick()
     {
         active = !active;
-        puzzle.gameObject.SetActive(active);
-        analyze.gameObject.SetActive(active);
-        newgame.gameObject.SetActive(active);
-        hint.gameObject.SetActive(active);
-        takeback.gameObject.SetActive(active);
-        exit.gameObject.SetActive(active);
-        evaluation.gameObject.SetActive(active);
-        playButton.gameObject.SetActive(active);
-        //slider.gameObject.SetActive(active);
-        whiteSlider.gameObject.SetActive(active);
-        blackSlider.gameObject.SetActive(active);
 
         if (active) GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
         else GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Menu";
+
+        newgame.gameObject.SetActive(active);
+        hint.gameObject.SetActive(active);
+        exit.gameObject.SetActive(active);
+        whiteSlider.gameObject.SetActive(active);
+        puzzle.gameObject.SetActive(active);
+        analyze.gameObject.SetActive(active);
+        takeback.gameObject.SetActive(active);
+        evaluation.gameObject.SetActive(active);
+        playButton.gameObject.SetActive(active);
+        blackSlider.gameObject.SetActive(active);
     }
 }
