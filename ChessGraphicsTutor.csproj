@@ -82,11 +82,13 @@
     <Compile Include="Assets\Scripts\Analyze.cs" />
     <Compile Include="Assets\Scripts\BMPuzzles.cs" />
     <Compile Include="Assets\Scripts\BMStart.cs" />
+    <Compile Include="Assets\Scripts\BadMove.cs" />
     <Compile Include="Assets\Scripts\Bishop.cs" />
     <Compile Include="Assets\Scripts\BoardHighlights.cs" />
     <Compile Include="Assets\Scripts\BoardManager.cs" />
     <Compile Include="Assets\Scripts\CameraEvents.cs" />
     <Compile Include="Assets\Scripts\CameraEventsP.cs" />
+    <Compile Include="Assets\Scripts\Categories.cs" />
     <Compile Include="Assets\Scripts\Chessman.cs" />
     <Compile Include="Assets\Scripts\Connect.cs" />
     <Compile Include="Assets\Scripts\ConnectPuzzles.cs" />

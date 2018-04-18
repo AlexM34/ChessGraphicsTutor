@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 
 public class MenuButton : MonoBehaviour
 {
+    public BoardManager _bm;
     public Canvas puzzle;
     public Canvas analyze;
     public Canvas newgame;
@@ -14,6 +15,7 @@ public class MenuButton : MonoBehaviour
     public Canvas takeback;
     public Canvas exit;
     public Canvas evaluation;
+    public Canvas image;
     public Button playButton;
     public Slider slider;
     public Slider whiteSlider;
@@ -25,6 +27,7 @@ public class MenuButton : MonoBehaviour
     {
         active = false;
 
+        image.gameObject.SetActive(false);
         newgame.gameObject.SetActive(false);
         hint.gameObject.SetActive(false);
         exit.gameObject.SetActive(false);
@@ -40,6 +43,8 @@ public class MenuButton : MonoBehaviour
     public void ButtonClick()
     {
         active = !active;
+        _bm.pause = !_bm.pause;
+        image.gameObject.SetActive(active);
 
         if (active) GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
         else GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Menu";

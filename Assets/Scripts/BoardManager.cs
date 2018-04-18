@@ -30,7 +30,7 @@ public class BoardManager : MonoBehaviour
     public bool isEnded = false;
     public bool wait = false;
     public bool puzzleMode = false;
-    public bool puzzleLoaded = false;
+    public bool pause = false;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
@@ -801,9 +801,9 @@ public class BoardManager : MonoBehaviour
         if (puzzleMode)
         {
             solved++;
-            _connect.text.text = solved.ToString();
+            _connect.text.text = "   Solved:" + "\r\n      " + solved + "\r\n\r\n";
 
-            _puzzle.ButtonClick();
+            _puzzle.next = true;
         }
     }
 }

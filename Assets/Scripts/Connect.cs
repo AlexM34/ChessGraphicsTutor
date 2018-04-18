@@ -14,12 +14,14 @@ public class Connect : MonoBehaviour
     public double timeBlack;
     private int level = 10;
     public bool puzzleMode = false;
+    private int eval = 25;
 
     public BoardManager _bm;
     public Play _play;
     public Opponent _opp;
     public Player _pl;
     public Evaluation _eval;
+    public BadMove _bad;
 
     [DllImport("Engine.dll", CharSet = CharSet.Unicode)]
     static extern int Move(int move, double time, int l);
@@ -110,10 +112,10 @@ public class Connect : MonoBehaviour
     {
         GameObject.Find("Slider").GetComponentInChildren<Text>().text = "Level " + _play.mainSlider.value;// + "/10";
         puzzleMode = _bm.puzzleMode;
-
-        if (_bm.isWhiteTurn || puzzleMode) timeWhite -= Time.deltaTime;
-        else timeBlack -= Time.deltaTime;
-
+        
+        if (_bm.isWhiteTurn && !_bm.pause) timeWhite -= Time.deltaTime;
+        else if (!_bm.pause) timeBlack -= Time.deltaTime;
+        return;
         if (timeWhite <= 0f)
         {
             if (puzzleMode)
@@ -254,7 +256,7 @@ public class Connect : MonoBehaviour
     private void CPU(int move)
     {
         DateTime start = DateTime.Now;
-        int m;
+        int m, evaldiff;
         double time;
 
         if (!_bm.isEngineOn) time = -10;
@@ -271,6 +273,9 @@ public class Connect : MonoBehaviour
             return;
         }
 
+        evaldiff = Move(-22, 10, 1) - eval;
+        text.text = evaldiff.ToString();
+        if (evaldiff < -20) _bad.Ask();
         int from = m / 100; //promotion issues
         int to = m % 100;
         int x1 = from % 8;
@@ -289,7 +294,7 @@ public class Connect : MonoBehaviour
             return;
         }
 
-
+        eval = Move(-22, 10, 1);
         TimeSpan diff = DateTime.Now - start;
         if (_bm.isUserWhite) timeBlack -= diff.TotalSeconds;
         else timeWhite -= diff.TotalSeconds;
