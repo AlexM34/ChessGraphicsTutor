@@ -16,28 +16,31 @@ public class MenuButton : MonoBehaviour
     public Canvas exit;
     public Canvas evaluation;
     public Canvas image;
+    public Canvas coach;
     public Button playButton;
     public Slider slider;
     public Slider whiteSlider;
     public Slider blackSlider;
 
-    bool active = false;
+    bool active = true;
 
     private void Start()
     {
-        active = false;
+        active = true;
 
-        image.gameObject.SetActive(false);
-        newgame.gameObject.SetActive(false);
-        hint.gameObject.SetActive(false);
-        exit.gameObject.SetActive(false);
-        whiteSlider.gameObject.SetActive(false);
-        puzzle.gameObject.SetActive(false);
-        analyze.gameObject.SetActive(false);
-        takeback.gameObject.SetActive(false);
-        evaluation.gameObject.SetActive(false);
-        playButton.gameObject.SetActive(false);
-        blackSlider.gameObject.SetActive(false);
+        image.gameObject.SetActive(true);
+        GameObject.Find("Menu").GetComponentInChildren<Text>().text = "Hide";
+        newgame.gameObject.SetActive(true);
+        hint.gameObject.SetActive(true);
+        exit.gameObject.SetActive(true);
+        whiteSlider.gameObject.SetActive(true);
+        puzzle.gameObject.SetActive(true);
+        analyze.gameObject.SetActive(true);
+        takeback.gameObject.SetActive(true);
+        evaluation.gameObject.SetActive(true);
+        coach.gameObject.SetActive(true);
+        playButton.gameObject.SetActive(true);
+        blackSlider.gameObject.SetActive(true);
     }
 
     public void ButtonClick()
@@ -57,6 +60,7 @@ public class MenuButton : MonoBehaviour
         analyze.gameObject.SetActive(active);
         takeback.gameObject.SetActive(active);
         evaluation.gameObject.SetActive(active);
+        coach.gameObject.SetActive(active);
         playButton.gameObject.SetActive(active);
         blackSlider.gameObject.SetActive(active);
     }

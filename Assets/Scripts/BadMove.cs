@@ -5,36 +5,44 @@ using UnityEngine.UI;
 
 public class BadMove : MonoBehaviour
 {
-    public Canvas badMove;
+    public Connect _connect;
+    public Canvas _badMove;
+    public CrystalBall _ball;
     public Button play;
-    //public Button cancel;
+    public Button cancel;
+    public int eval = 150;
 
     void Start()
     {
-        badMove = badMove.GetComponent<Canvas>();
+        _badMove = _badMove.GetComponent<Canvas>();
         play = play.GetComponent<Button>();
-        //exitButton = exitButton.GetComponent<Button>();
-        badMove.enabled = false;
+        cancel = cancel.GetComponent<Button>();
+        _badMove.enabled = false;
     }
 
     public void Ask()
     {
-        badMove.enabled = true;
+        _badMove.enabled = true;
         play.enabled = true;
-        //exitButton.enabled = false;
+        cancel.enabled = true;
+        _connect._bm.pause = true;
     }
 
     public void Continue()
     {
-        badMove.enabled = false;
+        _badMove.enabled = false;
         play.enabled = false;
-        //exitButton.enabled = false;
+        cancel.enabled = false;
+        _connect._bm.pause = false;
+        _ball.Eval(eval);
     }
 
     public void Cancel()
     {
-        badMove.enabled = false;
+        _badMove.enabled = false;
         play.enabled = false;
-        //exitButton.enabled = false;
+        cancel.enabled = false;
+        _connect._bm.pause = false;
+        _connect.Takeback();
     }
 }

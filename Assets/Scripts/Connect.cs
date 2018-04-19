@@ -14,7 +14,9 @@ public class Connect : MonoBehaviour
     public double timeBlack;
     private int level = 10;
     public bool puzzleMode = false;
-    private int eval = 25;
+    public int[] eval = new int[100];
+    public int evaldiff = 0;
+    private bool coachOn = true;
 
     public BoardManager _bm;
     public Play _play;
@@ -113,9 +115,9 @@ public class Connect : MonoBehaviour
         GameObject.Find("Slider").GetComponentInChildren<Text>().text = "Level " + _play.mainSlider.value;// + "/10";
         puzzleMode = _bm.puzzleMode;
         
-        if (_bm.isWhiteTurn && !_bm.pause) timeWhite -= Time.deltaTime;
-        else if (!_bm.pause) timeBlack -= Time.deltaTime;
-        return;
+        if (((puzzleMode && !_bm._puzzle.next) || (!puzzleMode && _bm.isWhiteTurn)) && !_bm.pause) timeWhite -= Time.deltaTime;
+        else if (!puzzleMode && !_bm.pause) timeBlack -= Time.deltaTime;
+        
         if (timeWhite <= 0f)
         {
             if (puzzleMode)
@@ -249,14 +251,19 @@ public class Connect : MonoBehaviour
 
     public void Evaluation()
     {
-        int eval = Move(-22, 10, 1);
-        _eval.GetValue(eval);
+        eval[_bm.moves] = Move(-22, 10, 1);
+        _eval.GetValue(eval[_bm.moves]);
+    }
+
+    public void Coach (bool isOn)
+    {
+        coachOn = isOn;
     }
 
     private void CPU(int move)
     {
         DateTime start = DateTime.Now;
-        int m, evaldiff;
+        int m;
         double time;
 
         if (!_bm.isEngineOn) time = -10;
@@ -273,9 +280,14 @@ public class Connect : MonoBehaviour
             return;
         }
 
-        evaldiff = Move(-22, 10, 1) - eval;
-        text.text = evaldiff.ToString();
-        if (evaldiff < -20) _bad.Ask();
+        evaldiff = Move(-22, 10, 1) - eval[_bm.moves-1];
+        if (!_bm.isUserWhite) evaldiff = -evaldiff;
+        _bad.eval = evaldiff;
+        if (coachOn && evaldiff < -70)  _bad.Ask();
+
+        if (coachOn) _bad._ball.Eval(evaldiff);
+        else _bad._ball.Eval(1000);
+
         int from = m / 100; //promotion issues
         int to = m % 100;
         int x1 = from % 8;
@@ -294,7 +306,7 @@ public class Connect : MonoBehaviour
             return;
         }
 
-        eval = Move(-22, 10, 1);
+        eval[_bm.moves] = Move(-22, 10, 1);
         TimeSpan diff = DateTime.Now - start;
         if (_bm.isUserWhite) timeBlack -= diff.TotalSeconds;
         else timeWhite -= diff.TotalSeconds;

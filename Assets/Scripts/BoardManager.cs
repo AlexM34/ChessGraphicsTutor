@@ -30,7 +30,7 @@ public class BoardManager : MonoBehaviour
     public bool isEnded = false;
     public bool wait = false;
     public bool puzzleMode = false;
-    public bool pause = false;
+    public bool pause = true;
     private int[] from = new int[400];
     private int[] to = new int[400];
     private int[] piece_from = new int[400];
