@@ -16,7 +16,7 @@ public class Connect : MonoBehaviour
     public bool puzzleMode = false;
     public int[] eval = new int[100];
     public int evaldiff = 0;
-    private bool coachOn = true;
+    public bool coachOn = true;
 
     public BoardManager _bm;
     public Play _play;
@@ -56,7 +56,7 @@ public class Connect : MonoBehaviour
             return;
         }
 
-        if (_bm.isEnded ||_bm.wait) return;
+        if (_bm.isEnded || _bm.wait) return;
         int m;
         if (_bm.isWhiteTurn) m = Move(-16, 1000 * timeWhite, level);
         else m = Move(-17, 1000 * timeBlack, level);
@@ -308,9 +308,10 @@ public class Connect : MonoBehaviour
 
         eval[_bm.moves] = Move(-22, 10, 1);
         TimeSpan diff = DateTime.Now - start;
+        _eval.hide = true;
+        if (_bm.replay) return;
         if (_bm.isUserWhite) timeBlack -= diff.TotalSeconds;
         else timeWhite -= diff.TotalSeconds;
-        _eval.hide = true;
     }
 
     public void SlowMotion ()

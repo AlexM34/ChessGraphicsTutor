@@ -31,8 +31,9 @@ public class BoardManager : MonoBehaviour
     public bool wait = false;
     public bool puzzleMode = false;
     public bool pause = true;
-    private int[] from = new int[400];
-    private int[] to = new int[400];
+    public bool replay = false;
+    public int[] from = new int[400];
+    public int[] to = new int[400];
     private int[] piece_from = new int[400];
     private int[] piece_to = new int[400];
     private int[] ep = new int[400];
@@ -157,6 +158,7 @@ public class BoardManager : MonoBehaviour
 
     public void SelectChessman(int x, int y)
     {
+        _connect.text.text = "SC " + x.ToString() + y.ToString();
         if (isEnded || wait) return;
         if (Chessmans[x, y] == null) return;
         if (Chessmans[x, y].isWhite != isWhiteTurn) return;
@@ -170,11 +172,15 @@ public class BoardManager : MonoBehaviour
         {
             for (int j = 0; j < 8; j++)
             {
-                if (allowedMoves[i, j] && (puzzleMode || isUserWhite != isWhiteTurn || _connect.Possible(i, j))) hasAtleastOneMove = true;
+                if (allowedMoves[i, j] && (puzzleMode || isUserWhite != isWhiteTurn || _connect.Possible(i, j)))
+                {
+                    hasAtleastOneMove = true;
+                    break;
+                }                
             }
         }
 
-        if (!hasAtleastOneMove) return;
+        if (!hasAtleastOneMove && !replay) return;
 
         selectedChessman = Chessmans[x, y];
         previousMat = selectedChessman.GetComponent<MeshRenderer>().material;
@@ -190,8 +196,9 @@ public class BoardManager : MonoBehaviour
         y1 = -1;
         x2 = -1;
         y2 = -1;
-        if (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_connect.Possible(x, y)) || (puzzleMode && _connect.timeWhite < 0f))
+        if (!replay && (x < 0 || x > 7 || y < 0 || y > 7 || (!puzzleMode && isUserWhite == isWhiteTurn && !_connect.Possible(x, y)) || (puzzleMode && _connect.timeWhite < 0f)))
         {
+            _connect.text.text = "MC " + x.ToString() + y.ToString();
             selectedChessman.GetComponent<MeshRenderer>().material = previousMat;
             BoardHighlights.Instance.HideHighlights();
             selectedChessman = null;
@@ -331,7 +338,7 @@ public class BoardManager : MonoBehaviour
             lineRenderer.SetPosition(1, to);
 
             if (!isEngineOn && !puzzleMode) isUserWhite = !isUserWhite;
-            if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
+            if ((isUserWhite != isWhiteTurn || !isEngineOn) && !replay) send = true;
         }
 
         if (puzzleMode && x1 != -1)
@@ -393,7 +400,7 @@ public class BoardManager : MonoBehaviour
             lineRenderer.SetPosition(1, vto);
 
             if (!isEngineOn) isUserWhite = !isUserWhite;
-            if (isUserWhite != isWhiteTurn || !isEngineOn) send = true;
+            if ((isUserWhite != isWhiteTurn || !isEngineOn) && !replay) send = true;
         }
         
         wait = false;
@@ -405,7 +412,6 @@ public class BoardManager : MonoBehaviour
 
     private void Capture (int x, int y)
     {
-        _connect.text.text = moves.ToString();
         int type = TypeAsInt(x, y);
 
         Vector3 o;
@@ -451,7 +457,7 @@ public class BoardManager : MonoBehaviour
         piece_from[moves] = TypeAsInt(x1, y1);
         piece_to[moves] = TypeAsInt(x2, y2);
         ep[moves] = EnPassantMove[0] * 10 + EnPassantMove[1];
-        moves++;
+        if (!replay) moves++;
     }
 
     private int TypeAsInt (int x, int y)
@@ -648,6 +654,25 @@ public class BoardManager : MonoBehaviour
             solution[i+2] = sol[puzzleMoves * 4 - 2 - i];
             solution[i+3] = sol[puzzleMoves * 4 - 1 - i];
         }
+    }
+
+    public void Reload()
+    {
+        isEngineOn = false;
+        _connect.coachOn = false;
+        replay = true;
+        for (int i = 0; i < moves; i++)
+        {
+            SelectChessman(from[i] / 10, from[i] % 10);
+            MoveChessman(to[i] / 10, to[i] % 10);
+            _connect.User(from[i] / 10, from[i] % 10, to[i] / 10, to[i] % 10);
+        }
+
+        isEngineOn = true;
+        _connect.coachOn = true;
+        replay = false;
+        if (moves % 2 == 0) isUserWhite = true;
+        else isUserWhite = false;
     }
 
     public void SpawnChessman(int index, int x, int y)

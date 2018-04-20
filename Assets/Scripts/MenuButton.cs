@@ -17,6 +17,7 @@ public class MenuButton : MonoBehaviour
     public Canvas evaluation;
     public Canvas image;
     public Canvas coach;
+    public Canvas saveload;
     public Button playButton;
     public Slider slider;
     public Slider whiteSlider;
@@ -38,6 +39,7 @@ public class MenuButton : MonoBehaviour
         analyze.gameObject.SetActive(true);
         takeback.gameObject.SetActive(true);
         evaluation.gameObject.SetActive(true);
+        saveload.gameObject.SetActive(true);
         coach.gameObject.SetActive(true);
         playButton.gameObject.SetActive(true);
         blackSlider.gameObject.SetActive(true);
@@ -60,6 +62,7 @@ public class MenuButton : MonoBehaviour
         analyze.gameObject.SetActive(active);
         takeback.gameObject.SetActive(active);
         evaluation.gameObject.SetActive(active);
+        saveload.gameObject.SetActive(active);
         coach.gameObject.SetActive(active);
         playButton.gameObject.SetActive(active);
         blackSlider.gameObject.SetActive(active);
